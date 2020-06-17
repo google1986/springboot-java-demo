@@ -1,0 +1,23 @@
+
+A
+java:S1481=",Remove this unused "stream1" local variable.(¿ŠT
+P
+java:S1854=";Remove this useless assignment to local variable "stream1".(¿ŠT
+S	java:S106T"9Replace this use of System.out or System.err by a logger.(‘“şÂşÿÿÿÿ
+U
+java:S18548":Remove this useless assignment to local variable "stream".(›è‹üÿÿÿÿ
+@
+java:S1481,"+Remove this unused "stream" local variable.(î»Êd
+F
+java:S14818"+Remove this unused "stream" local variable.(›è‹üÿÿÿÿ
+S	java:S106O"9Replace this use of System.out or System.err by a logger.(‡ÂİŞûÿÿÿÿ
+A
+java:S1481D"+Remove this unused "stream" local variable.(ø»Ç¬
+]
+java:S1854/"BRemove this useless assignment to local variable "parallelStream".(àéÚ×ÿÿÿÿÿ
+N
+java:S1481/"3Remove this unused "parallelStream" local variable.(àéÚ×ÿÿÿÿÿ
+P
+java:S1854D":Remove this useless assignment to local variable "stream".(ø»Ç¬
+O
+java:S1854,":Remove this useless assignment to local variable "stream".(î»Êd

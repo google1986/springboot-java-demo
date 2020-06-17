@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/java-base/java-base.iml" filepath="$PROJECT_DIR$/java-base/java-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-learn-demo.iml" filepath="$PROJECT_DIR$/java-learn-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/mysql-druid/mysql-druid.iml" filepath="$PROJECT_DIR$/mysql-druid/mysql-druid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unit-test/unit-test.iml" filepath="$PROJECT_DIR$/unit-test/unit-test.iml" />
     </modules>
   </component>
 </project>

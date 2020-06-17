@@ -1,0 +1,25 @@
+
+S	java:S1067"9Replace this use of System.out or System.err by a logger.(õ…¡åşÿÿÿÿ
+N	java:S106;"9Replace this use of System.out or System.err by a logger.(ÛÃí
+S	java:S106B"9Replace this use of System.out or System.err by a logger.(ˆ˜£Áúÿÿÿÿ
+E
+java:S3740*"/Provide the parametrized type for this generic.(ÉÄİÙ
+M	java:S106V"9Replace this use of System.out or System.err by a logger.(úËä=
+M	java:S106O"9Replace this use of System.out or System.err by a logger.(òÏP
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(Çÿùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+E
+java:S3740"/Provide the parametrized type for this generic.(ÉÄİÙ
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(à¿öÑúÿÿÿÿ
+g
+java:S2259>"LA "NullPointerException" could be thrown; "parameterTypes" is nullable here.(†©±øÿÿÿÿ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿ
+S	java:S106:"9Replace this use of System.out or System.err by a logger.(ÎÑ·îûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(à¿öÑúÿÿÿÿ
+S	java:S106F"9Replace this use of System.out or System.err by a logger.(¸¸êûÿÿÿÿ
+N	java:S106J"9Replace this use of System.out or System.err by a logger.(¨üËÂ
+N	java:S106R"9Replace this use of System.out or System.err by a logger.(¥ÏŸè
+V	java:S125&"<This block of commented-out lines of code should be removed.(ÈÇà÷üÿÿÿÿ
+m
+java:S3776)"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(†Ä¼üÿÿÿÿ
+S	java:S106["9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ

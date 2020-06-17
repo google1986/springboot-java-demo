@@ -7,8 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mysql-druid" />
         <module name="java-base" />
+        <module name="unit-test" />
+        <module name="mysql-druid" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +17,7 @@
       <module name="java-learn-demo" target="1.8" />
       <module name="mysql" target="1.8" />
       <module name="mysql-druid" target="1.8" />
+      <module name="unit-test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -24,6 +26,7 @@
       <module name="java-learn-demo" options="-parameters" />
       <module name="mysql" options="-parameters" />
       <module name="mysql-druid" options="-parameters" />
+      <module name="unit-test" options="-parameters" />
     </option>
   </component>
 </project>

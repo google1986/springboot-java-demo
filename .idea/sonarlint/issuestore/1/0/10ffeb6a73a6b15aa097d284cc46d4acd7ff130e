@@ -1,0 +1,20 @@
+
+S	java:S1067"9Replace this use of System.out or System.err by a logger.(Ž³ð¸ûÿÿÿÿ
+S	java:S106g"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+V	java:S125W"<This block of commented-out lines of code should be removed.(»‚ÔÙûÿÿÿÿ
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(•‰Å³ûÿÿÿÿ
+N	java:S106@"9Replace this use of System.out or System.err by a logger.(¼¡¨ò
+N	java:S106+"9Replace this use of System.out or System.err by a logger.(¼¡¨ò
+N	java:S106<"9Replace this use of System.out or System.err by a logger.(Ö’È‘
+N	java:S106C"9Replace this use of System.out or System.err by a logger.(µ©·¢
+R
+java:S3655Y"7Call "sumMoney.isPresent()" before accessing the value.(°îÑÐýÿÿÿÿ
+N	java:S106F"9Replace this use of System.out or System.err by a logger.(ÄÂ‚þ
+S	java:S106Y"9Replace this use of System.out or System.err by a logger.(°îÑÐýÿÿÿÿ
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+M	java:S106."9Replace this use of System.out or System.err by a logger.(ÑÌ¶q
+N	java:S106("9Replace this use of System.out or System.err by a logger.(ÏÃýš
+N	java:S106P"9Replace this use of System.out or System.err by a logger.(‚¨Ö§
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÉåÕ
+N	java:S106f"9Replace this use of System.out or System.err by a logger.(ÙÂ‰Ò
+S	java:S106j"9Replace this use of System.out or System.err by a logger.(ý¤ŒÛúÿÿÿÿ
