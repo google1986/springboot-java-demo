@@ -5,8 +5,6 @@ package learn.javabase.part13.java;
  *
  * 特点：代理类和被代理类在编译期间，就确定下来了。
  *
- * @author shkstart
- * @create 2019 上午 10:11
  */
 interface ClothFactory{
 
@@ -17,7 +15,8 @@ interface ClothFactory{
 //代理类
 class ProxyClothFactory implements ClothFactory{
 
-    private ClothFactory factory;//用被代理类对象进行实例化
+    //用被代理类对象进行实例化
+    private ClothFactory factory;
 
     public ProxyClothFactory(ClothFactory factory){
         this.factory = factory;
@@ -49,8 +48,6 @@ public class StaticProxyTest {
         ClothFactory nike = new NikeClothFactory();
         //创建代理类的对象
         ClothFactory proxyClothFactory = new ProxyClothFactory(nike);
-
         proxyClothFactory.produceCloth();
-
     }
 }

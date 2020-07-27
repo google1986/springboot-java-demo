@@ -1,0 +1,13 @@
+
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ÉüÃÍ8¥õÑ·.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(£²½ üÿÿÿÿ
+‰
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÉüÃÍ8î‚ƒÒ·.
+\
+java:S1128":Remove this unused import 'java.lang.reflect.Constructor'.(¿ã–şúÿÿÿÿ8ïñ‚Ò·.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(é²óûşÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.( ’§á
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Óèñ¦øÿÿÿÿ
+P	java:S125("<This block of commented-out lines of code should be removed.(‚è¾
+`	java:S112#"FDefine and throw a dedicated exception instead of using a generic one.(ÙÓÆøúÿÿÿÿ
+N	java:S1065"9Replace this use of System.out or System.err by a logger.(öÃÏú

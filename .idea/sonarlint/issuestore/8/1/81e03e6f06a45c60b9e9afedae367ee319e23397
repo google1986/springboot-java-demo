@@ -1,0 +1,91 @@
+
+N	java:S106K"9Replace this use of System.out or System.err by a logger.(ñ—‘Ž
+S	java:S1067"9Replace this use of System.out or System.err by a logger.(ö™µ–úÿÿÿÿ
+C
+java:S1481’"'Remove this unused "c3" local variable.(Ïø‡ûÿÿÿÿ
+N	java:S106z"9Replace this use of System.out or System.err by a logger.(úŸßà
+>
+java:S1481˜"'Remove this unused "c9" local variable.(û¥‚Á
+M
+java:S1854–"6Remove this useless assignment to local variable "c7".(Èãˆí
+M
+java:S1854˜"6Remove this useless assignment to local variable "c9".(û¥‚Á
+R
+java:S1854—"6Remove this useless assignment to local variable "c8".(¥»¤¸øÿÿÿÿ
+S	java:S106D"9Replace this use of System.out or System.err by a logger.(¨ô¢¨ýÿÿÿÿ
+K
+java:S3740œ"/Provide the parametrized type for this generic.(‚¸Î”ýÿÿÿÿ
+L
+java:S1854”"6Remove this useless assignment to local variable "c5".(»”®.
+T	java:S106„"9Replace this use of System.out or System.err by a logger.(Àåñýýÿÿÿÿ
+R
+java:S1854’"6Remove this useless assignment to local variable "c3".(Ïø‡ûÿÿÿÿ
+E
+java:S3740“"/Provide the parametrized type for this generic.(–¯ÆD
+E
+java:S3740("/Provide the parametrized type for this generic.(ÉÄÝÙ
+E
+java:S3740•"/Provide the parametrized type for this generic.(ºõ½=
+]
+java:S2133p"@Remove this object instantiation and use "Person.class" instead.(ûóÚÅ8ÌÐþ™±.
+=
+java:S1481•"'Remove this unused "c6" local variable.(ºõ½=
+C
+java:S1481—"'Remove this unused "c8" local variable.(¥»¤¸øÿÿÿÿ
+C
+java:S1481‘"'Remove this unused "c2" local variable.(æ¾·ëøÿÿÿÿ
+F
+java:S3740–"/Provide the parametrized type for this generic.(Èãˆí
+S	java:S106l"9Replace this use of System.out or System.err by a logger.(©–áüÿÿÿÿ
+L
+java:S1854•"6Remove this useless assignment to local variable "c6".(ºõ½=
+S	java:S106{"9Replace this use of System.out or System.err by a logger.(ÎÊ´£ûÿÿÿÿ
+M
+java:S1854"6Remove this useless assignment to local variable "c1".(õû¤é
+E
+java:S3740k"/Provide the parametrized type for this generic.(×Ê»»
+=
+java:S1481“"'Remove this unused "c4" local variable.(–¯ÆD
+K
+java:S3740—"/Provide the parametrized type for this generic.(¥»¤¸øÿÿÿÿ
+R
+java:S1854‘"6Remove this useless assignment to local variable "c2".(æ¾·ëøÿÿÿÿ
+K
+java:S3740"/Provide the parametrized type for this generic.(·¥°•ûÿÿÿÿ
+>
+java:S1481"'Remove this unused "c1" local variable.(õû¤é
+D
+java:S3740*"/Provide the parametrized type for this generic.(ÊÛðc
+J
+java:S3740q"/Provide the parametrized type for this generic.(ó¯•³ùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Óä‹ü
+>
+java:S1481–"'Remove this unused "c7" local variable.(Èãˆí
+J
+java:S3740w"/Provide the parametrized type for this generic.(Þ³áùüÿÿÿÿ
+O	java:S106‚"9Replace this use of System.out or System.err by a logger.(¿ü©Ã
+L
+java:S1854“"6Remove this useless assignment to local variable "c4".(–¯ÆD
+F
+java:S3740˜"/Provide the parametrized type for this generic.(û¥‚Á
+F
+java:S3740"/Provide the parametrized type for this generic.(õû¤é
+=
+java:S1481”"'Remove this unused "c5" local variable.(»”®.
+K
+java:S3740‘"/Provide the parametrized type for this generic.(æ¾·ëøÿÿÿÿ
+F
+java:S3740"/Provide the parametrized type for this generic.(žãéÜ
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(Ñ£±Ôúÿÿÿÿ
+K
+java:S3740’"/Provide the parametrized type for this generic.(Ïø‡ûÿÿÿÿ
+E
+java:S3740”"/Provide the parametrized type for this generic.(»”®.
+O	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(Ðúîœ
+J
+java:S3740;"/Provide the parametrized type for this generic.(üö¼õÿÿÿÿÿ
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(¨ô¢¨ýÿÿÿÿ
+S	java:S106r"9Replace this use of System.out or System.err by a logger.(¹‚ÝÛýÿÿÿÿ
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(Ñ£±Ôúÿÿÿÿ
+S	java:S106x"9Replace this use of System.out or System.err by a logger.(†È´‡ùÿÿÿÿ
+`	java:S112'"FDefine and throw a dedicated exception instead of using a generic one.(ÙÓÆøúÿÿÿÿ

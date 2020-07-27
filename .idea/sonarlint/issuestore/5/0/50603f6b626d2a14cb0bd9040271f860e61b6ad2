@@ -1,0 +1,27 @@
+
+2
+java:S1643)"Use a StringBuilder instead.(‚²ß¶
+u
+java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(Ş­©å
+z
+java:S1149H"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(€š’µûÿÿÿÿ
+u
+java:S1149r"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ÓÍı
+u
+java:S1149v"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ƒõı»
+V
+java:S1854";Remove this useless assignment to local variable "endTime".(²ÿèùıÿÿÿÿ
+X
+java:S1854"=Remove this useless assignment to local variable "startTime".(º¥™øÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(·âäĞ
+N	java:S106%"9Replace this use of System.out or System.err by a logger.(ˆ±“À
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(™Îÿÿÿÿÿ
+N	java:S106K"9Replace this use of System.out or System.err by a logger.(Î’ÛÚ
+N	java:S106Q"9Replace this use of System.out or System.err by a logger.(Î’ÛÚ
+N	java:S106R"9Replace this use of System.out or System.err by a logger.(ÅÀ†¿
+M	java:S106S"9Replace this use of System.out or System.err by a logger.(œ™À
+S	java:S106t"9Replace this use of System.out or System.err by a logger.(º–ç“ûÿÿÿÿ
+N	java:S106w"9Replace this use of System.out or System.err by a logger.(Üï™
+Q	java:S125C"<This block of commented-out lines of code should be removed.(©ğÜÇ
+Q	java:S125L"<This block of commented-out lines of code should be removed.(íëÇÑ
+V	java:S125^"<This block of commented-out lines of code should be removed.(¿üÌÙşÿÿÿÿ

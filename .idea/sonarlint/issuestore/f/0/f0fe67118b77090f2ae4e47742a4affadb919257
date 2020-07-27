@@ -1,0 +1,18 @@
+
+V	java:S125'"<This block of commented-out lines of code should be removed.(İåÃ”ÿÿÿÿÿ
+V	java:S125B"<This block of commented-out lines of code should be removed.(àıÚ±ûÿÿÿÿ
+V	java:S125S"<This block of commented-out lines of code should be removed.(ªİéùÿÿÿÿ
+V	java:S125="<This block of commented-out lines of code should be removed.(İåÃ”ÿÿÿÿÿ
+S	java:S106K"9Replace this use of System.out or System.err by a logger.(Êµ‡çşÿÿÿÿ
+S	java:S106-"9Replace this use of System.out or System.err by a logger.(Êµ‡çşÿÿÿÿ
+E
+java:S3740 "/Provide the parametrized type for this generic.(Á³öÆ
+P	java:S125D"<This block of commented-out lines of code should be removed.(€«v
+V	java:S125F"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+Q	java:S125["<This block of commented-out lines of code should be removed.(º¬®À
+V	java:S125@"<This block of commented-out lines of code should be removed.(Ñò’İıÿÿÿÿ
+S	java:S106d"9Replace this use of System.out or System.err by a logger.(›„¤÷ûÿÿÿÿ
+t
+java:S22936"YReplace the type specification in this constructor call with the diamond operator ("<>").(çÔ‹¶şÿÿÿÿ
+E
+java:S3740 "/Provide the parametrized type for this generic.(Á³öÆ

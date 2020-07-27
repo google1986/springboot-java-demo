@@ -14,21 +14,32 @@ public class FieldTest {
     @Test
     public void test1() {
 
-        Class clazz = Person.class;
+        Class<Person> clazz = Person.class;
 
-        //获取属性结构
-        //getFields():获取当前运行时类及其父类中声明为public访问权限的属性
-        Field[] fields = clazz.getFields();
-        for (Field f : fields) {
-            System.out.println(f);
+        Field[] fields1 = clazz.getFields();
+        for (Field field : fields1) {
+            System.out.println(field);
         }
-        System.out.println("=================");
 
-        //getDeclaredFields():获取当前运行时类中声明的所有属性。（不包含父类中声明的属性）
+        System.out.println("=====================");
+
         Field[] declaredFields = clazz.getDeclaredFields();
-        for (Field f : declaredFields) {
-            System.out.println(f);
+        for (Field declaredField : declaredFields) {
+            System.out.println(declaredField);
         }
+//        //获取属性结构
+//        //getFields():获取当前运行时类及其父类中声明为public访问权限的属性
+//        Field[] fields = clazz.getFields();
+//        for (Field f : fields) {
+//            System.out.println(f);
+//        }
+//        System.out.println("=================");
+//
+//        //getDeclaredFields():获取当前运行时类中声明的所有属性。（不包含父类中声明的属性）
+//        Field[] declaredFields = clazz.getDeclaredFields();
+//        for (Field f : declaredFields) {
+//            System.out.println(f);
+//        }
     }
 
     //权限修饰符  数据类型 变量名
@@ -36,6 +47,18 @@ public class FieldTest {
     public void test2() {
         Class clazz = Person.class;
         Field[] declaredFields = clazz.getDeclaredFields();
+        for (Field declaredField : declaredFields) {
+            int modifiers = declaredField.getModifiers();
+            System.out.print(Modifier.toString(modifiers)+"\t");
+            Class<?> type = declaredField.getType();
+            System.out.print(type.getName()+"\t");
+            System.out.print(declaredField.getName()+"\t");
+            System.out.println();
+        }
+
+
+
+
         for (Field f : declaredFields) {
             //1.权限修饰符
             int modifier = f.getModifiers();

@@ -10,19 +10,16 @@ import java.util.Set;
 
 /**
  * 练习3:获取文本上字符出现的次数,把数据写入文件
- *
+ * <p>
  * 思路：
  * 1.遍历文本每一个字符
  * 2.字符出现的次数存在Map中
- *
+ * <p>
  * Map<Character,Integer> map = new HashMap<Character,Integer>();
  * map.put('a',18);
  * map.put('你',2);
- *
+ * <p>
  * 3.把map中的数据写入文件
- *
- * @author shkstart
- * @create 2019 下午 3:47
  */
 public class WordCount {
     /*
@@ -35,7 +32,7 @@ public class WordCount {
         BufferedWriter bw = null;
         try {
             //1.创建Map集合
-            Map<Character, Integer> map = new HashMap<Character, Integer>();
+            Map<Character, Integer> map = new HashMap<>();
 
             //2.遍历每一个字符,每一个字符出现的次数放到map中
             fr = new FileReader("dbcp.txt");
@@ -87,7 +84,6 @@ public class WordCount {
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-
             }
             if (bw != null) {
                 try {
@@ -95,9 +91,7 @@ public class WordCount {
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-
             }
         }
-
     }
 }

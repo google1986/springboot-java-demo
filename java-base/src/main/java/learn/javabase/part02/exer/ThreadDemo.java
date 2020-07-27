@@ -16,30 +16,24 @@ public class ThreadDemo {
 //        m2.start();
 
         //创建Thread类的匿名子类的方式
-        new Thread(){
-            @Override
-            public void run() {
-                for (int i = 0; i < 100; i++) {
-                    if(i % 2 == 0){
-                        System.out.println(Thread.currentThread().getName() + ":" + i);
+        new Thread(() -> {
+            for (int i = 0; i < 100; i++) {
+                if(i % 2 == 0){
+                    System.out.println(Thread.currentThread().getName() + ":" + i);
 
-                    }
                 }
             }
-        }.start();
+        },"AAAA").start();
 
 
-        new Thread(){
-            @Override
-            public void run() {
-                for (int i = 0; i < 100; i++) {
-                    if(i % 2 != 0){
-                        System.out.println(Thread.currentThread().getName() + ":" + i);
+        new Thread(() -> {
+            for (int i = 0; i < 100; i++) {
+                if(i % 2 != 0){
+                    System.out.println(Thread.currentThread().getName() + ":" + i);
 
-                    }
                 }
             }
-        }.start();
+        },"BBBB").start();
 
     }
 }

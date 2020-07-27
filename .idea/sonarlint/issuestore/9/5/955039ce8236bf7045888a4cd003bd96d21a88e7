@@ -1,0 +1,14 @@
+
+i
+java:S1104"NMake id a static final constant or non-public and provide accessors if needed.(ÍéÌ‘øÿÿÿÿ
+‚
+java:S1130 "gRemove the declaration of thrown exception 'java.lang.ClassCastException' which is a runtime exception.(Ò’³ûúÿÿÿÿ
+C
+java:S1144/"-Remove this unused private "showDesc" method.(èÑâ©
+„
+java:S1130 "iRemove the declaration of thrown exception 'java.lang.NullPointerException' which is a runtime exception.(Ò’³ûúÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(á½®õ
+M	java:S106'"9Replace this use of System.out or System.err by a logger.(§µƒ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(ôàºüÿÿÿÿ
+o
+java:S1210+"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(Ä×¶É

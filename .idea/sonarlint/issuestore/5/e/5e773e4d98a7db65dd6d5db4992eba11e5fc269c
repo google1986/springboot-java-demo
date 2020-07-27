@@ -1,0 +1,76 @@
+
+W
+java:S1075,"ARefactor your code to get this URI from a customizable parameter.(®Ù»¶
+T	java:S106"9Replace this use of System.out or System.err by a logger.(Öš­øúÿÿÿÿ
+N	java:S106d"9Replace this use of System.out or System.err by a logger.(‡¤Ÿ”
+S	java:S106]"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ
+X
+java:S1075Á"ARefactor your code to get this URI from a customizable parameter.(Õ†â
+X	java:S899¦"BDo something with the "boolean" value returned by "createNewFile".(á‡³
+N	java:S106s"9Replace this use of System.out or System.err by a logger.(¸ñŒ‹
+T	java:S106‡"9Replace this use of System.out or System.err by a logger.(ÖòÛéÿÿÿÿÿ
+S	java:S106S"9Replace this use of System.out or System.err by a logger.(¹íŠ£øÿÿÿÿ
+T	java:S106§"9Replace this use of System.out or System.err by a logger.(Ÿíª«şÿÿÿÿ
+U
+java:S1854À"9Remove this useless assignment to local variable "file3".(›£ëìøÿÿÿÿ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(†Æùúÿÿÿÿ
+O	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(­À¬è
+S	java:S106L"9Replace this use of System.out or System.err by a logger.(¢ËÉ®úÿÿÿÿ
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(ôÄÈûÿÿÿÿ
+N	java:S106R"9Replace this use of System.out or System.err by a logger.(¿äùâ
+S	java:S106I"9Replace this use of System.out or System.err by a logger.(ŠŞ«€ùÿÿÿÿ
+P	java:S899©";Do something with the "boolean" value returned by "delete".(±Ü‹
+O	java:S106ª"9Replace this use of System.out or System.err by a logger.(İ”ş
+j
+java:S4042Â"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(‹ã’¸ùÿÿÿÿ
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ÀÊÏúıÿÿÿÿ
+]
+java:S1075¹"ARefactor your code to get this URI from a customizable parameter.(¯ğÙôÿÿÿÿÿ
+S	java:S106J"9Replace this use of System.out or System.err by a logger.(ô‚õÉøÿÿÿÿ
+S	java:S106Q"9Replace this use of System.out or System.err by a logger.(ÖÛ…¾øÿÿÿÿ
+T	java:S106‘"9Replace this use of System.out or System.err by a logger.(óı‘ùÿÿÿÿ
+T	java:S106Â"9Replace this use of System.out or System.err by a logger.(‹ã’¸ùÿÿÿÿ
+T	java:S106“"9Replace this use of System.out or System.err by a logger.(¯İì¼ùÿÿÿÿ
+N	java:S106G"9Replace this use of System.out or System.err by a logger.(˜ãôº
+N	java:S106P"9Replace this use of System.out or System.err by a logger.(í¸îØ
+O	java:S106"9Replace this use of System.out or System.err by a logger.(ñöŸŠ
+U
+java:S1854€"9Remove this useless assignment to local variable "file1".(ÍŒ¸»ÿÿÿÿÿ
+X
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(“ñ¬´
+N	java:S106T"9Replace this use of System.out or System.err by a logger.(£Ößª
+O	java:S106’"9Replace this use of System.out or System.err by a logger.(­Å…
+O	java:S106†"9Replace this use of System.out or System.err by a logger.(í¹¹†
+\
+java:S1075p"ARefactor your code to get this URI from a customizable parameter.(Æ’öûÿÿÿÿ
+W
+java:S1075&"ARefactor your code to get this URI from a customizable parameter.(ı÷Îé
+]
+java:S1075Œ"ARefactor your code to get this URI from a customizable parameter.(‘³›êûÿÿÿÿ
+O	java:S106¶"9Replace this use of System.out or System.err by a logger.(’¹ı”
+U
+java:S1854Œ"9Remove this useless assignment to local variable "file2".(‘³›êûÿÿÿÿ
+N	java:S106H"9Replace this use of System.out or System.err by a logger.(í …
+T	java:S106Š"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+S	java:S106("9Replace this use of System.out or System.err by a logger.(•Ã¤ıÿÿÿÿ
+W
+java:S1075E"ARefactor your code to get this URI from a customizable parameter.(˜¾ğß
+N	java:S106-"9Replace this use of System.out or System.err by a logger.(Éªø÷
+T	java:S106…"9Replace this use of System.out or System.err by a logger.(‚¤±ıÿÿÿÿ
+O	java:S106½"9Replace this use of System.out or System.err by a logger.(¸¢Ğú
+N	java:S106K"9Replace this use of System.out or System.err by a logger.(àÉš
+S	java:S106`"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+T	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(óõ‹¬úÿÿÿÿ
+]
+java:S1075À"ARefactor your code to get this URI from a customizable parameter.(›£ëìøÿÿÿÿ
+d
+java:S4042©"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(±Ü‹
+]
+java:S1075²"ARefactor your code to get this URI from a customizable parameter.(ÿÀ¿øÿÿÿÿ
+N	java:S106U"9Replace this use of System.out or System.err by a logger.(Ñ¶ûá
+\
+java:S1075Y"ARefactor your code to get this URI from a customizable parameter.(ªÛÈˆşÿÿÿÿ
+`
+java:S1192%"JDefine a constant instead of duplicating this literal "hello.txt" 4 times.(²æ»€
+S	java:S106N"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+T	java:S106„"9Replace this use of System.out or System.err by a logger.(­¤¶úÿÿÿÿ

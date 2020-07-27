@@ -1,0 +1,23 @@
+
+>
+java:S1148$"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+>
+java:S1148B"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+>
+java:S16047"(Make this anonymous inner class a lambda(ÉãÃ®
+u
+java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¤„Æž
+u
+java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(“á±º
+\
+java:S2142#"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+Y
+java:S2276""CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(á˜ ¶
+N	java:S106,"9Replace this use of System.out or System.err by a logger.(Î’ÛÚ
+M	java:S106-"9Replace this use of System.out or System.err by a logger.(œ™À
+\
+java:S2142A"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+Y
+java:S2276@"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(á˜ ¶
+N	java:S106I"9Replace this use of System.out or System.err by a logger.(Î’ÛÚ
+M	java:S106J"9Replace this use of System.out or System.err by a logger.(œ™À

@@ -1,12 +1,12 @@
 
-[
-java:S1226"@Introduce a new variable instead of reusing the parameter "str".(Ú£ı´ÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(âŞÕİùÿÿÿÿ
+S
+java:S1197"8Move the array designator from the variable to the type.(ÁŠÀ¦úÿÿÿÿ
 ;
 java:S2129
 " Remove this "String" constructor(¸ã‘©ıÿÿÿÿ
 R
 java:S1854"7Remove this useless assignment to local variable "str".(Ú£ı´ÿÿÿÿÿ
-S
-java:S1197"8Move the array designator from the variable to the type.(ÁŠÀ¦úÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(âŞÕİùÿÿÿÿ
 S	java:S106"9Replace this use of System.out or System.err by a logger.(ıèôÿÿÿÿÿ
+[
+java:S1226"@Introduce a new variable instead of reusing the parameter "str".(Ú£ı´ÿÿÿÿÿ

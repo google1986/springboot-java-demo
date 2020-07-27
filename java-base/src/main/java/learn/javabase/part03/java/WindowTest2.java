@@ -32,7 +32,6 @@ class Window2 extends Thread{
 //              synchronized (this){
 
                 if(ticket > 0){
-
                     try {
                         Thread.sleep(100);
                     } catch (InterruptedException e) {

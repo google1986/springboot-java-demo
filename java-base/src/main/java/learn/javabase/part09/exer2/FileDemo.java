@@ -7,8 +7,6 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 /**
- * @author shkstart
- * @create 2019 下午 4:56
  */
 public class FileDemo {
 

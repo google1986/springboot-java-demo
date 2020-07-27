@@ -1,9 +1,9 @@
 
+Q	java:S125:"<This block of commented-out lines of code should be removed.(ı¬æØ
+Q	java:S125D"<This block of commented-out lines of code should be removed.(É‹ó
+Q	java:S125I"<This block of commented-out lines of code should be removed.(í·é
 o
-java:S1210S"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(úä­
-Q	java:S125<"<This block of commented-out lines of code should be removed.(ı¬æØ
-V	java:S125A"<This block of commented-out lines of code should be removed.(ë¡®”øÿÿÿÿ
-Q	java:S125F"<This block of commented-out lines of code should be removed.(É‹ó
-Q	java:S125K"<This block of commented-out lines of code should be removed.(í·é
-V	java:S125N"<This block of commented-out lines of code should be removed.(§òİüÿÿÿÿ
-V	java:S125P"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+java:S1210Q"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(úä­
+V	java:S125L"<This block of commented-out lines of code should be removed.(§òİüÿÿÿÿ
+V	java:S125N"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+V	java:S125?"<This block of commented-out lines of code should be removed.(ë¡®”øÿÿÿÿ

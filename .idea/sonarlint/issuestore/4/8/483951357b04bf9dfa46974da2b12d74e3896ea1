@@ -1,0 +1,16 @@
+
+>
+java:S1148+"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+>
+java:S11485"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+*
+java:S1700"Rename field "number"(ëİ
+F
+java:S2446$"0"notify" may not wake up the appropriate thread.(éÊîƒ
+\
+java:S2142*"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+^
+java:S2276)"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(¤ù»ÿÿÿÿÿ
+N	java:S106."9Replace this use of System.out or System.err by a logger.(–—Şö
+\
+java:S21424"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€

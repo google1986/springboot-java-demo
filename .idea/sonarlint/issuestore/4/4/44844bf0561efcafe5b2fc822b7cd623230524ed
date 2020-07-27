@@ -1,0 +1,14 @@
+
+S	java:S106M"9Replace this use of System.out or System.err by a logger.(¡¹—Òøÿÿÿÿ
+N	java:S106f"9Replace this use of System.out or System.err by a logger.(¼¡¨ò
+t
+java:S2293U"YReplace the type specification in this constructor call with the diamond operator ("<>").(ù÷¼Ïÿÿÿÿÿ
+E
+java:S1604"(Make this anonymous inner class a lambda(‚¶Ûë8‰º³¬.
+]	java:S125!"<This block of commented-out lines of code should be removed.(ëÚÒÿÿÿÿÿ8‰º³¬.
+X	java:S125&"<This block of commented-out lines of code should be removed.(¶´¡ş8‰º³¬.
+X	java:S125*"<This block of commented-out lines of code should be removed.(òĞ±8‰º³¬.
+]	java:S125/"<This block of commented-out lines of code should be removed.(èŒœ©ÿÿÿÿÿ8‰º³¬.
+]	java:S1254"<This block of commented-out lines of code should be removed.(İ–ªûùÿÿÿÿ8‰º³¬.
+]	java:S1257"<This block of commented-out lines of code should be removed.(’‹­õşÿÿÿÿ8‰º³¬.
+]	java:S1259"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8‰º³¬.

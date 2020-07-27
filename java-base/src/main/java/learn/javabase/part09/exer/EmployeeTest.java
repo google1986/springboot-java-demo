@@ -7,21 +7,17 @@ import java.util.Iterator;
 import java.util.TreeSet;
 
 /**
- * 创建该类的 5 个对象，并把这些对象放入 TreeSet 集合中（下一章：TreeSet 需使用泛型来定义）
- 分别按以下两种方式对集合中的元素进行排序，并遍历输出：
-
- 1). 使Employee 实现 Comparable 接口，并按 name 排序
- 2). 创建 TreeSet 时传入 Comparator对象，按生日日期的先后排序。
-
- *
- * @author shkstart
- * @create 2019 上午 10:23
+ * 创建该类的 5 个对象，并把这些对象放入 TreeSet 集合中
+ * 分别按以下两种方式对集合中的元素进行排序，并遍历输出：
+ * <p>
+ * 1). 使Employee 实现 Comparable 接口，并按 name 排序
+ * 2). 创建 TreeSet 时传入 Comparator对象，按生日日期的先后排序。
  */
 public class EmployeeTest {
 
     //问题二：按生日日期的先后排序。
     @Test
-    public void test2(){
+    public void test2() {
 
         TreeSet<Employee> set = new TreeSet<>(new Comparator<Employee>() {
             //使用泛型以后的写法
@@ -64,11 +60,11 @@ public class EmployeeTest {
 //            }
         });
 
-        Employee e1 = new Employee("liudehua",55,new MyDate(1965,5,4));
-        Employee e2 = new Employee("zhangxueyou",43,new MyDate(1987,5,4));
-        Employee e3 = new Employee("guofucheng",44,new MyDate(1987,5,9));
-        Employee e4 = new Employee("liming",51,new MyDate(1954,8,12));
-        Employee e5 = new Employee("liangzhaowei",21,new MyDate(1978,12,4));
+        Employee e1 = new Employee("liudehua", 55, new MyDate(1965, 5, 4));
+        Employee e2 = new Employee("zhangxueyou", 43, new MyDate(1987, 5, 4));
+        Employee e3 = new Employee("guofucheng", 44, new MyDate(1987, 5, 9));
+        Employee e4 = new Employee("liming", 51, new MyDate(1954, 8, 12));
+        Employee e5 = new Employee("liangzhaowei", 21, new MyDate(1978, 12, 4));
 
         set.add(e1);
         set.add(e2);
@@ -77,7 +73,7 @@ public class EmployeeTest {
         set.add(e5);
 
         Iterator<Employee> iterator = set.iterator();
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
     }
@@ -85,14 +81,14 @@ public class EmployeeTest {
 
     //问题一：使用自然排序
     @Test
-    public void test1(){
+    public void test1() {
         TreeSet<Employee> set = new TreeSet<Employee>();
 
-        Employee e1 = new Employee("liudehua",55,new MyDate(1965,5,4));
-        Employee e2 = new Employee("zhangxueyou",43,new MyDate(1987,5,4));
-        Employee e3 = new Employee("guofucheng",44,new MyDate(1987,5,9));
-        Employee e4 = new Employee("liming",51,new MyDate(1954,8,12));
-        Employee e5 = new Employee("liangzhaowei",21,new MyDate(1978,12,4));
+        Employee e1 = new Employee("liudehua", 55, new MyDate(1965, 5, 4));
+        Employee e2 = new Employee("zhangxueyou", 43, new MyDate(1987, 5, 4));
+        Employee e3 = new Employee("guofucheng", 44, new MyDate(1987, 5, 9));
+        Employee e4 = new Employee("liming", 51, new MyDate(1954, 8, 12));
+        Employee e5 = new Employee("liangzhaowei", 21, new MyDate(1978, 12, 4));
 
         set.add(e1);
         set.add(e2);
@@ -101,7 +97,7 @@ public class EmployeeTest {
         set.add(e5);
 
         Iterator<Employee> iterator = set.iterator();
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
             Employee employee = iterator.next();
             System.out.println(employee);
         }

@@ -1,0 +1,39 @@
+
+N
+java:S1128	",Remove this unused import 'java.util.Deque'.(³Ã¯¥şÿÿÿÿ8¹á÷¶.
+r
+java:S1149k"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÑÖÙƒıÿÿÿÿ8¹á÷¶.
+T	java:S106["9Replace this use of System.out or System.err by a logger.(úËä=8èí–‹¬.
+D	java:S108e")Either remove or fill this block of code.(òá«p8¹á÷¶.
+Z	java:S106?"9Replace this use of System.out or System.err by a logger.(ÎÑ·îûÿÿÿÿ8èí–‹¬.
+r	java:S117i"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆÜûøÿÿÿÿ8¹á÷¶.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(à¿öÑúÿÿÿÿ
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(à¿öÑúÿÿÿÿ8¹á÷¶.
+U	java:S106@"9Replace this use of System.out or System.err by a logger.(ÛÃí8èí–‹¬.
+Z	java:S1065"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿ8èí–‹¬.
+Z	java:S106^"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8èí–‹¬.
+T	java:S106T"9Replace this use of System.out or System.err by a logger.(òÏP8èí–‹¬.
+Q
+java:S3740d"/Provide the parametrized type for this generic.(ş¯¥ıÿÿÿÿ8¹á÷¶.
+Q
+java:S3740d"/Provide the parametrized type for this generic.(ş¯¥ıÿÿÿÿ8¹á÷¶.
+Z	java:S106K"9Replace this use of System.out or System.err by a logger.(¸¸êûÿÿÿÿ8èí–‹¬.
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(õ…¡åşÿÿÿÿ
+n
+java:S2259C"LA "NullPointerException" could be thrown; "parameterTypes" is nullable here.(†©±øÿÿÿÿ8èí–‹¬.
+E
+java:S3740"/Provide the parametrized type for this generic.(ÉÄİÙ
+r
+java:S1149d"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ş¯¥ıÿÿÿÿ8¹á÷¶.
+t
+java:S3776."RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(†Ä¼üÿÿÿÿ8èí–‹¬.
+Z	java:S106G"9Replace this use of System.out or System.err by a logger.(ˆ˜£Áúÿÿÿÿ8èí–‹¬.
+U	java:S106W"9Replace this use of System.out or System.err by a logger.(¥ÏŸè8¹á÷¶.
+L
+java:S3740/"/Provide the parametrized type for this generic.(ÉÄİÙ8èí–‹¬.
+Z	java:S1069"9Replace this use of System.out or System.err by a logger.(Çÿùÿÿÿÿ8èí–‹¬.
+B
+java:S1481e"&Remove this unused "o" local variable.(òá«p8¹á÷¶.
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(²÷Ğ¸8¹á÷¶.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Æ¬÷İøÿÿÿÿ
+N	java:S106O"9Replace this use of System.out or System.err by a logger.(¨üËÂ

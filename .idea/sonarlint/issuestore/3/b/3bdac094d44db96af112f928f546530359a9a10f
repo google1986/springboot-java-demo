@@ -1,0 +1,18 @@
+
+C
+java:S1604a"(Make this anonymous inner class a lambda(—ûø·ûÿÿÿÿ
+N	java:S106r"9Replace this use of System.out or System.err by a logger.(×Æáî
+N	java:S1068"9Replace this use of System.out or System.err by a logger.(×Æáî
+a
+java:S11923"LDefine a constant instead of duplicating this literal "huaweiMouse" 3 times.(û°ã5
+[	java:S112n"FDefine and throw a dedicated exception instead of using a generic one.(Øè§˜
+J
+java:S3740a"/Provide the parametrized type for this generic.(—ûø·ûÿÿÿÿ
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(×Æáî
+N	java:S106T"9Replace this use of System.out or System.err by a logger.(×Æáî
+b	java:S112R"FDefine and throw a dedicated exception instead of using a generic one.(Øè§˜8«Ãê™±.
+O
+java:S1905K"-Remove this unnecessary cast to "Comparator".(…òØ–ıÿÿÿÿ8«Ãê™±.
+<
+java:S2676O"Use the original value instead.(ààåè8«Ãê™±.
+]	java:S125Q"<This block of commented-out lines of code should be removed.(€“ªµıÿÿÿÿ8«Ãê™±.

@@ -1,0 +1,25 @@
+
+t
+java:S22930"YReplace the type specification in this constructor call with the diamond operator ("<>").(ŸÊÕ¦ıÿÿÿÿ
+Q	java:S1252"<This block of commented-out lines of code should be removed.(Å ş«
+T
+java:S18540"9Remove this useless assignment to local variable "list2".(ŸÊÕ¦ıÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(÷…ÊÕûÿÿÿÿ
+E
+java:S3740"/Provide the parametrized type for this generic.(ÈÃÖ
+E
+java:S14810"*Remove this unused "list2" local variable.(ŸÊÕ¦ıÿÿÿÿ
+E
+java:S1481/"*Remove this unused "list1" local variable.(¼€ñŠùÿÿÿÿ
+v
+java:S41656"`Remove this useless assignment; "p1" already holds the assigned value along all execution paths.( ©Òû
+L
+java:S18546"6Remove this useless assignment to local variable "p1".( ©Òû
+S	java:S106C"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ
+=
+java:S14814"'Remove this unused "p1" local variable.(¿öæ¦
+E
+java:S3740"/Provide the parametrized type for this generic.(ÈÃÖ
+P
+java:S2209A"5Change this instance-reference to a static reference.(§‰£šıÿÿÿÿ

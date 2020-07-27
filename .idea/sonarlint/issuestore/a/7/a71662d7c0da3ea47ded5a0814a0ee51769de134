@@ -1,0 +1,36 @@
+
+j
+java:S1192!"TDefine a constant instead of duplicating this literal "*******************" 5 times.(â÷ºß
+B
+java:S1612#",Replace this lambda with a method reference.(§Äõ
+G
+java:S1612/",Replace this lambda with a method reference.(›Ž÷ôýÿÿÿÿ
+B
+java:S1612>",Replace this lambda with a method reference.(éëµˆ
+>
+java:S1604"(Make this anonymous inner class a lambda(ô¿Æµ
+M
+java:S1854"7Remove this useless assignment to local variable "sup".(ô¿Æµ
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(â÷ºß
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(®ò¨Øÿÿÿÿÿ
+N	java:S106&"9Replace this use of System.out or System.err by a logger.(â÷ºß
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(ÉÓË‚ùÿÿÿÿ
+v
+java:S4276/"[Refactor this code to use the more specialised Functional Interface 'IntFunction<Employee>'(›Ž÷ôýÿÿÿÿ
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(¼¡¨ò
+N	java:S1063"9Replace this use of System.out or System.err by a logger.(â÷ºß
+v
+java:S42765"[Refactor this code to use the more specialised Functional Interface 'IntFunction<Employee>'(ûÂì×ÿÿÿÿÿ
+M	java:S1067"9Replace this use of System.out or System.err by a logger.(ÑÌ¶q
+L	java:S106?"9Replace this use of System.out or System.err by a logger.(û˜t
+N	java:S106A"9Replace this use of System.out or System.err by a logger.(â÷ºß
+S	java:S106D"9Replace this use of System.out or System.err by a logger.(–œ®Õûÿÿÿÿ
+v
+java:S4276L"[Refactor this code to use the more specialised Functional Interface 'IntFunction<String[]>'(Þ‹Áœþÿÿÿÿ
+S	java:S106N"9Replace this use of System.out or System.err by a logger.(ù£·êýÿÿÿÿ
+N	java:S106P"9Replace this use of System.out or System.err by a logger.(â÷ºß
+q
+java:S4276R"[Refactor this code to use the more specialised Functional Interface 'IntFunction<String[]>'(¯æŸµ
+N	java:S106T"9Replace this use of System.out or System.err by a logger.(ïÍØƒ
+>
+java:S1481"(Remove this unused "sup" local variable.(ô¿Æµ

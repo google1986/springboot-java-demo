@@ -7,12 +7,9 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 /**
- * @author shkstart
- * @create 2019 下午 4:08
+ * 图片的加密
  */
 public class PicTest {
-
-    //图片的加密
     @Test
     public void test1() {
 

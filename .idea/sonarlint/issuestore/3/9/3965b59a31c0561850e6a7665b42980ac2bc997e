@@ -1,0 +1,8 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Óü¨Üøÿÿÿÿ
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(Óü¨Üøÿÿÿÿ
+R
+java:S18545"<Remove this useless assignment to local variable "service1".(…œËŠ
+C
+java:S14815"-Remove this unused "service1" local variable.(…œËŠ
+V	java:S1257"<This block of commented-out lines of code should be removed.(œø—ãıÿÿÿÿ

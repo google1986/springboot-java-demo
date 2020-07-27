@@ -1,0 +1,11 @@
+
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(º‚É¦
+W
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(ìò¡å
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(Î¤œ¯üÿÿÿÿ
+Q	java:S125O"<This block of commented-out lines of code should be removed.(¿­ÎÅ
+i
+java:S4042a"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(²Œ­ûÿÿÿÿ
+N	java:S1068"9Replace this use of System.out or System.err by a logger.(ëê†•
+S	java:S106-"9Replace this use of System.out or System.err by a logger.(Å­ËÝúÿÿÿÿ
+U	java:S899a";Do something with the "boolean" value returned by "delete".(²Œ­ûÿÿÿÿ
