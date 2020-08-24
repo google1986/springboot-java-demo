@@ -1,0 +1,19 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(Õİÿî
+E
+java:S3740"/Provide the parametrized type for this generic.(Õİÿî
+T
+java:S12266">Introduce a new variable instead of reusing the parameter "s".(­â“ì
+;
+java:S2129" Remove this "String" constructor(ÅÛıÌıÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Áªø
+S	java:S106%"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ
+K
+java:S18546"5Remove this useless assignment to local variable "s".(­â“ì
+M	java:S106:"9Replace this use of System.out or System.err by a logger.(ÇÑ×
+A
+java:S14815"&Remove this unused "s" local variable.(î÷øûÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(‰íˆ°ıÿÿÿÿ
+V	java:S125#"<This block of commented-out lines of code should be removed.(ùö¨µüÿÿÿÿ
+P	java:S1250"<This block of commented-out lines of code should be removed.(ü¬×

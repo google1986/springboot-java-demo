@@ -83,9 +83,5 @@ public class InputStreamReaderTest {
         //3.关闭资源
         isr.close();
         osw.close();
-
-
     }
-
-
 }

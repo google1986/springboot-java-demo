@@ -1,0 +1,80 @@
+
+B
+java:S1612E",Replace this lambda with a method reference.(²ÿÂ
+N	java:S106C"9Replace this use of System.out or System.err by a logger.(â÷ºß
+T	java:S106¯"9Replace this use of System.out or System.err by a logger.(°ƒØùÿÿÿÿ
+>
+java:S1604&"(Make this anonymous inner class a lambda(ÚØ•¹
+T	java:S106†"9Replace this use of System.out or System.err by a logger.(ÂÚÍÌøÿÿÿÿ
+N	java:S106€"9Replace this use of System.out or System.err by a logger.(ïõõ	
+>
+java:S1481c"(Remove this unused "arr" local variable.(¢Ç€
+j
+java:S1192C"TDefine a constant instead of duplicating this literal "*******************" 3 times.(â÷ºß
+S	java:S106F"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ
+N	java:S106¢"9Replace this use of System.out or System.err by a logger.(¢™ü
+z
+java:S1192ˆ"^Define a constant instead of duplicating this literal "*****************************" 3 times.(ˆÕÒÊıÿÿÿÿ
+H
+java:S1602¨",Remove useless curly braces around statement(§‹Ô™üÿÿÿÿ
+B
+java:S16021",Remove useless curly braces around statement(í¬çÔ
+N	java:S106o"9Replace this use of System.out or System.err by a logger.(â÷ºß
+>
+java:S1604}"(Make this anonymous inner class a lambda(Õµöê
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ˆÕÒÊıÿÿÿÿ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(ì®ÔÅøÿÿÿÿ
+B
+java:S1602E",Remove useless curly braces around statement(²ÿÂ
+O	java:S106"9Replace this use of System.out or System.err by a logger.(ˆşÅß
+O	java:S106"9Replace this use of System.out or System.err by a logger.(‡ğ¡¿
+H
+java:S1612¨",Replace this lambda with a method reference.(§‹Ô™üÿÿÿÿ
+>
+java:S1604;"(Make this anonymous inner class a lambda(÷àüÓ
+S	java:S106r"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ
+T	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(ˆÕÒÊıÿÿÿÿ
+A
+java:S1602j",Remove useless curly braces around statement(ˆ¹èc
+G
+java:S1602q",Remove useless curly braces around statement(ˆ ®øÿÿÿÿ
+O	java:S106‹"9Replace this use of System.out or System.err by a logger.(ˆşÅß
+T	java:S106­"9Replace this use of System.out or System.err by a logger.(ˆÕÒÊıÿÿÿÿ
+B
+java:S1602P",Remove useless curly braces around statement(²ÿÂ
+O	java:S106œ"9Replace this use of System.out or System.err by a logger.(‡Ş¶ë
+N	java:S106Š"9Replace this use of System.out or System.err by a logger.(ïõõ	
+H
+java:S1612¯",Replace this lambda with a method reference.(°ƒØùÿÿÿÿ
+M
+java:S1854c"7Remove this useless assignment to local variable "arr".(¢Ç€
+N
+java:S1854a"8Remove this useless assignment to local variable "list".(Œ¬”¤
+N	java:S106U"9Replace this use of System.out or System.err by a logger.(â÷ºß
+B
+java:S1612P",Replace this lambda with a method reference.(²ÿÂ
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(¸¼É„üÿÿÿÿ
+B
+java:S1602W",Remove useless curly braces around statement(Şàé
+S	java:S106X"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ
+T	java:S106©"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ
+?
+java:S1481a")Remove this unused "list" local variable.(Œ¬”¤
+A
+java:S1612j",Replace this lambda with a method reference.(ˆ¹èc
+E
+java:S1611W"/Remove the parentheses around the "s" parameter(Şàé
+D
+java:S1611j"/Remove the parentheses around the "s" parameter(ˆ¹èc
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ
+i
+java:S1602˜"SRemove useless curly braces around statement and then remove useless return keyword(˜Ë
+G
+java:S1612q",Replace this lambda with a method reference.(ˆ ®øÿÿÿÿ
+B
+java:S1612W",Replace this lambda with a method reference.(Şàé
+•
+java:S1192H"zDefine a constant instead of duplicating this literal "ä¸€ä¸ªæ˜¯å¬å¾—äººå½“çœŸäº†ï¼Œä¸€ä¸ªæ˜¯è¯´çš„äººå½“çœŸäº†" 7 times.(ßçÌÿşÿÿÿÿ
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(Ş‘›ïøÿÿÿÿ
+S	java:S106k"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ
+S	java:S106Q"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ

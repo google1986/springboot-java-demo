@@ -5,6 +5,8 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
 
+import static learn.javabase.part09.java.Order.copyFromArrayToList;
+
 /** 如何自定义泛型结构：泛型类、泛型接口；泛型方法。
  *
  * 1. 关于自定义泛型类、泛型接口：
@@ -25,7 +27,7 @@ public class GenericTest1 {
         order.setOrderT("ABC");
 
         //建议：实例化时指明类的泛型
-        Order<String> order1 = new Order<String>("orderAA",1001,"order:AA");
+        Order<String> order1 = new Order<>("orderAA",1001,"order:AA");
 
         order1.setOrderT("AA:hello");
 
@@ -62,7 +64,7 @@ public class GenericTest1 {
         Order<String> order = new Order<>();
         Integer[] arr = new Integer[]{1,2,3,4};
         //泛型方法在调用时，指明泛型参数的类型。
-        List<Integer> list = order.copyFromArrayToList(arr);
+        List<Integer> list = copyFromArrayToList(arr);
 
         System.out.println(list);
     }

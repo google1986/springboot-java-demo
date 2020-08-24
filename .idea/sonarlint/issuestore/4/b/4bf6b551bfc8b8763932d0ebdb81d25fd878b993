@@ -1,13 +1,13 @@
 
+S	java:S106"9Replace this use of System.out or System.err by a logger.(£“ú®úÿÿÿÿ
 m
 java:S1192"RDefine a constant instead of duplicating this literal "å½“å‰çº¿ç¨‹å: " 4 times.(£“ú®úÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(£“ú®úÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(£“ú®úÿÿÿÿ
 N	java:S106"9Replace this use of System.out or System.err by a logger.(Â·œê
-S	java:S106"9Replace this use of System.out or System.err by a logger.(£“ú®úÿÿÿÿ
 S	java:S106"9Replace this use of System.out or System.err by a logger.(£“ú®úÿÿÿÿ
-M	java:S106%"9Replace this use of System.out or System.err by a logger.(åí²q
-S	java:S1061"9Replace this use of System.out or System.err by a logger.(À¡Œúÿÿÿÿ
-S	java:S1068"9Replace this use of System.out or System.err by a logger.(¤Ÿ±øÿÿÿÿ
 V	java:S125"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(¤Ÿ±øÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(£“ú®úÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(£“ú®úÿÿÿÿ
+M	java:S106%"9Replace this use of System.out or System.err by a logger.(åí²q
 V	java:S125"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(À¡Œúÿÿÿÿ

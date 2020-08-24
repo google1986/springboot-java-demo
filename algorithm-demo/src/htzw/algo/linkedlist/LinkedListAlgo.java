@@ -75,8 +75,50 @@ public class LinkedListAlgo {
         return soldier.next;
     }
 
-    public static Node deleteLastKth(Node list, int k){
-        return null;
+    // 删除倒数第K个结点
+    public static Node deleteLastKth(Node list, int k) {
+        Node fast = list;
+        int i = 1;
+        while (fast != null && i < k) {
+            fast = fast.next;
+            ++i;
+        }
+
+        if (fast == null) {
+            return list;
+        }
+
+        Node slow = list;
+        Node prev = null;
+        while (fast.next != null) {
+            fast = fast.next;
+            prev = slow;
+            slow = slow.next;
+        }
+
+        if (prev == null) {
+            list = list.next;
+        } else {
+            prev.next = prev.next.next;
+        }
+        return list;
+    }
+
+    // 求中间结点
+    public static Node findMiddleNode(Node list) {
+        if (list == null) {
+            return null;
+        }
+
+        Node fast = list;
+        Node slow = list;
+
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+
+        return slow;
     }
 
     public static class ListNode {

@@ -1,0 +1,29 @@
+
+i
+java:S2095P"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ÁÔˆıÿÿÿÿ
+>
+java:S1148a"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+\
+java:S1075P"ARefactor your code to get this URI from a customizable parameter.(ÁÔˆıÿÿÿÿ
+R
+java:S2589S"7Remove this expression which always evaluates to "true"(Ä­” ÿÿÿÿÿ
+T	java:S106’"9Replace this use of System.out or System.err by a logger.(·µ“»ùÿÿÿÿ
+E
+java:S2093$"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+O	java:S106”"9Replace this use of System.out or System.err by a logger.(î‹Ï±
+>
+java:S11485"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(¹ˆõà
+N	java:S1061"9Replace this use of System.out or System.err by a logger.( Ş·â
+d
+java:S2095Œ"MUse try-with-resources or close this "DataInputStream" in a "finally" clause.(ö’õå
+i
+java:S2095v"NUse try-with-resources or close this "DataOutputStream" in a "finally" clause.(œ‡Ã•ùÿÿÿÿ
+>
+java:S1148;"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+S	java:S106Y"9Replace this use of System.out or System.err by a logger.(ÇÃ§åşÿÿÿÿ
+O	java:S106“"9Replace this use of System.out or System.err by a logger.(ğ“
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(’ü×òıÿÿÿÿ
+S	java:S106["9Replace this use of System.out or System.err by a logger.(Ìø˜¢ıÿÿÿÿ
+E
+java:S2093O"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ

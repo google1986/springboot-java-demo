@@ -1,6 +1,9 @@
 package htzw.algo.stack;
 
+import org.junit.Test;
+
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Stack;
 
 /**
@@ -9,19 +12,44 @@ import java.util.Stack;
  * @date 2020/7/10 14:03
  */
 public class Solution {
-    public static void main(String[] args) {
+    @Test
+    public void main() {
         Solution solution = new Solution();
-        solution.isValid("(()){}");
+        System.out.println(solution.isValid2("(()){}"));
     }
     // Hash table that takes care of the mappings.
-    private HashMap<Character, Character> mappings;
+    private static HashMap<Character, Character> mappings;
 
     // Initialize hash map with mappings. This simply makes the code easier to read.
-    public Solution() {
-        this.mappings = new HashMap<>();
-        this.mappings.put(')', '(');
-        this.mappings.put('}', '{');
-        this.mappings.put(']', '[');
+//    public Solution() {
+//        this.mappings = new HashMap<>();
+//        this.mappings.put(')', '(');
+//        this.mappings.put('}', '{');
+//        this.mappings.put(']', '[');
+//    }
+
+    static {
+        mappings = new HashMap<>();
+        mappings.put(')','(');
+        mappings.put(']','[');
+        mappings.put('}','{');
+
+    }
+
+    private boolean isValid2(String s){
+        Stack<Character> stack = new Stack<>();
+        char[] chars = s.toCharArray();
+        for (char aChar : chars) {
+            if (mappings.containsKey(aChar)) {
+                char topElement = stack.empty() ? '#' : stack.pop();
+                if (topElement !=mappings.get(aChar)) {
+                    return false;
+                }
+            }else {
+                stack.push(aChar);
+            }
+        }
+        return stack.isEmpty();
     }
 
     public boolean isValid(String s) {
@@ -33,13 +61,13 @@ public class Solution {
             char c = s.charAt(i);
 
             // If the current character is a closing bracket.
-            if (this.mappings.containsKey(c)) {
+            if (mappings.containsKey(c)) {
 
                 // Get the top element of the stack. If the stack is empty, set a dummy value of '#'
                 char topElement = stack.empty() ? '#' : stack.pop();
 
                 // If the mapping for this bracket doesn't match the stack's top element, return false.
-                if (topElement != this.mappings.get(c)) {
+                if (topElement != mappings.get(c)) {
                     return false;
                 }
             } else {

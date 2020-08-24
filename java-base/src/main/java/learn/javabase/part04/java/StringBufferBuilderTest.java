@@ -2,6 +2,11 @@ package learn.javabase.part04.java;
 
 import org.junit.Test;
 
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
+
 /**
  * 关于StringBuffer和StringBuilder的使用
  *
@@ -67,6 +72,61 @@ public void setCharAt(int n ,char ch)
         长度：length();
         *遍历：for() + charAt() / toString()
      */
+
+    /**
+     * 输入aaaaabbbcccc
+     * 输出a5b3c4
+     */
+    @Test
+    public void tesetee(){
+        String str = "aaaaabbbcccc";
+        char[] chars = str.toCharArray();
+//        方法一
+        int countNum = 0;
+        int pos = 0;
+        boolean flag = false;
+        StringBuilder stringBuilder = new StringBuilder();
+        int i = pos;
+        while (i < chars.length){
+            for (int j = i; j< chars.length; j++){
+                if (chars[i] == chars[j]){
+                    countNum++;
+                }else {
+                    flag = true;
+                }
+                if (j == chars.length-1){
+                    flag = true;
+                }
+                if (flag) {
+                    stringBuilder.append(chars[i]).append(countNum);
+                    i=j;
+                    countNum = 0;
+                    flag = false;
+                    break;
+                }
+            }
+        }
+        System.out.println(stringBuilder.toString());
+//        方法二
+//        Map<Character,Integer> map = new HashMap<>();
+//        for (char c : chars) {
+//            if (map.containsKey(c)) {
+//                map.put(c,map.get(c)+1);
+//            }else {
+//                map.put(c,1);
+//            }
+//        }
+//        Set<Map.Entry<Character, Integer>> entries = map.entrySet();
+//        Iterator<Map.Entry<Character, Integer>> iterator = entries.iterator();
+//        StringBuilder stringBuilder = new StringBuilder();
+//        while (iterator.hasNext()) {
+//            Map.Entry<Character, Integer> next = iterator.next();
+//            stringBuilder.append(next.getKey()).append(next.getValue());
+//        }
+//
+//        System.out.println(stringBuilder.toString());
+
+    }
     @Test
     public void test2(){
         StringBuffer s1 = new StringBuffer("abc");

@@ -6,6 +6,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Collections:操作Collection、Map的工具类
@@ -37,6 +40,8 @@ boolean replaceAll(List list，Object oldVal，Object newVal)：使用新值替�
  */
     @Test
     public void test2(){
+        Lock reentrantLock = new ReentrantLock();
+        Condition condition = reentrantLock.newCondition();
         List list = new ArrayList();
         list.add(123);
         list.add(43);

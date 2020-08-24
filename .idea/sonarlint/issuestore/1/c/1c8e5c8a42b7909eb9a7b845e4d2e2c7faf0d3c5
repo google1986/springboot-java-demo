@@ -1,0 +1,36 @@
+
+T	java:S106"9Replace this use of System.out or System.err by a logger.(„å‰„şÿÿÿÿ
+O	java:S106˜"9Replace this use of System.out or System.err by a logger.(ÿ’’ª
+S	java:S106h"9Replace this use of System.out or System.err by a logger.(¡¹—Òøÿÿÿÿ
+F
+java:S3740¡"/Provide the parametrized type for this generic.(Á³öÆ
+T	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(éĞ«şÿÿÿÿ
+K
+java:S3740—"/Provide the parametrized type for this generic.(é¬øşÿÿÿÿ
+J
+java:S3740f"/Provide the parametrized type for this generic.(Û„›şşÿÿÿÿ
+T	java:S106¬"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ
+T	java:S106™"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ
+F
+java:S3740€"/Provide the parametrized type for this generic.(Á³öÆ
+O	java:S106²"9Replace this use of System.out or System.err by a logger.(†şÏ·
+N	java:S106r"9Replace this use of System.out or System.err by a logger.(ˆèÑÑ
+E
+java:S3740`"/Provide the parametrized type for this generic.(Á³öÆ
+T	java:S106¨"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ
+T	java:S106µ"9Replace this use of System.out or System.err by a logger.(¸œçûÿÿÿÿ
+F
+java:S3740¡"/Provide the parametrized type for this generic.(Á³öÆ
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ
+F
+java:S3740€"/Provide the parametrized type for this generic.(Á³öÆ
+T	java:S106”"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ
+F
+java:S3740¯"/Provide the parametrized type for this generic.(»ê„¿
+N	java:S106v"9Replace this use of System.out or System.err by a logger.(ŸÏÍè
+O	java:S106‹"9Replace this use of System.out or System.err by a logger.(µ —®
+N	java:S106o"9Replace this use of System.out or System.err by a logger.(Áªø
+E
+java:S3740`"/Provide the parametrized type for this generic.(Á³öÆ
+N	java:S106k"9Replace this use of System.out or System.err by a logger.(ˆèÑÑ
+R	java:S125±"<This block of commented-out lines of code should be removed.(ßÚÇÄ

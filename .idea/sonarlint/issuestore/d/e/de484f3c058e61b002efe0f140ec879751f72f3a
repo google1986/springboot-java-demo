@@ -1,7 +1,7 @@
 
 X
 java:S2094	"BRemove this empty class, write its code or make it an "interface".(æ½­³
-T
-java:S2168"9Remove this dangerous instance of double-checked locking.(þù÷Ëûÿÿÿÿ
 Q	java:S125"<This block of commented-out lines of code should be removed.(‘Ë„Å
 P	java:S125"<This block of commented-out lines of code should be removed.(ŽÙÙ
+T
+java:S2168"9Remove this dangerous instance of double-checked locking.(þù÷Ëûÿÿÿÿ

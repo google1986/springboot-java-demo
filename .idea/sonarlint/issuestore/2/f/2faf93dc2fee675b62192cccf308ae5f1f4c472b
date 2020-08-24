@@ -1,0 +1,64 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(Õİÿî
+E
+java:S3740"/Provide the parametrized type for this generic.(Õİÿî
+J
+java:S3740)"/Provide the parametrized type for this generic.(áøÍªÿÿÿÿÿ
+E
+java:S37400"/Provide the parametrized type for this generic.(Õİÿî
+E
+java:S37400"/Provide the parametrized type for this generic.(Õİÿî
+D
+java:S3740>"/Provide the parametrized type for this generic.(âóŸs
+E
+java:S3740G"/Provide the parametrized type for this generic.(Õİÿî
+E
+java:S3740G"/Provide the parametrized type for this generic.(Õİÿî
+J
+java:S3740T"/Provide the parametrized type for this generic.(¡¼Ïûÿÿÿÿ
+J
+java:S3740T"/Provide the parametrized type for this generic.(¡¼Ïûÿÿÿÿ
+E
+java:S3740b"/Provide the parametrized type for this generic.(Õİÿî
+E
+java:S3740b"/Provide the parametrized type for this generic.(Õİÿî
+J
+java:S3740v"/Provide the parametrized type for this generic.(ÿæªûÿÿÿÿ
+J
+java:S3740y"/Provide the parametrized type for this generic.(Õœêˆşÿÿÿÿ
+a
+java:S1192"FDefine a constant instead of duplicating this literal "Jerry" 7 times.(£´Ş×ÿÿÿÿÿ
+;
+java:S2129" Remove this "String" constructor(ÅÛıÌıÿÿÿÿ
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(³Åı¬
+M	java:S106$"9Replace this use of System.out or System.err by a logger.(ıãº|
+5
+java:S2129$" Remove this "String" constructor(ıãº|
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(¬áëşÿÿÿÿ
+N	java:S106*"9Replace this use of System.out or System.err by a logger.(ü£ò²
+;
+java:S21294" Remove this "String" constructor(ÅÛıÌıÿÿÿÿ
+M	java:S1068"9Replace this use of System.out or System.err by a logger.(åªÄf
+M	java:S106;"9Replace this use of System.out or System.err by a logger.(åªÄf
+M	java:S106@"9Replace this use of System.out or System.err by a logger.(åªÄf
+;
+java:S2129K" Remove this "String" constructor(ÅÛıÌıÿÿÿÿ
+;
+java:S2129X" Remove this "String" constructor(¸²ş›şÿÿÿÿ
+N	java:S106["9Replace this use of System.out or System.err by a logger.(•¤ï
+;
+java:S2129f" Remove this "String" constructor(ÅÛıÌıÿÿÿÿ
+S	java:S106j"9Replace this use of System.out or System.err by a logger.(³Î· üÿÿÿÿ
+M	java:S106o"9Replace this use of System.out or System.err by a logger.(ÇÑ×
+S
+java:S3878s"8Remove this array creation and simply pass the elements.(‡ˆşÿÿÿÿ
+S	java:S106t"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ
+\
+java:S3878v"ADisambiguate this call by either casting as "int[]" or "int[][]".(ÿæªûÿÿÿÿ
+N	java:S106w"9Replace this use of System.out or System.err by a logger.(±ƒ³ò
+S
+java:S3878y"8Remove this array creation and simply pass the elements.(Õœêˆşÿÿÿÿ
+N	java:S106z"9Replace this use of System.out or System.err by a logger.(ïöıÉ
+V	java:S125"<This block of commented-out lines of code should be removed.(ãí„ûÿÿÿÿ
+V	java:S125O"<This block of commented-out lines of code should be removed.(¢“ÏĞùÿÿÿÿ

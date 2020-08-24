@@ -1,8 +1,12 @@
 package learn.javabase.part13.java;
 
+import org.junit.Test;
+import sun.misc.Launcher;
+
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
+import java.net.URL;
 
 /**
  * @author gu.lian.jun
@@ -38,7 +42,7 @@ class  AnimalUtil {
 class AnimalProxyFactory{
     public static Object getProxyInstance(Object obj){
         return Proxy.newProxyInstance(obj.getClass().getClassLoader(),
-                obj.getClass().getInterfaces(),new MyAnimalInvocationHandler(obj));
+                obj.getClass().getInterfaces(), new MyAnimalInvocationHandler(obj));
     }
 }
 class MyAnimalInvocationHandler implements InvocationHandler {
@@ -58,11 +62,24 @@ class MyAnimalInvocationHandler implements InvocationHandler {
 }
 
 public class DynamicProxyTest {
+
+
+
+    @Test
+    public void  dddd(){
+        System.out.println("======启动类加载器======");
+        //获取BootstrapClassLoader能够加载的api的路径
+        URL[] urls = sun.misc.Launcher.getBootstrapClassPath().getURLs();
+        for (URL url : urls) {
+            System.out.println(url.toExternalForm());
+        }
+
+    }
     public static void main(String[] args) {
         Cat cat = new Cat();
         Animal animal = (Animal) AnimalProxyFactory.getProxyInstance(cat);
         System.out.println(animal.getBelief());
         animal.eat("鱼头");
-
     }
+    
 }

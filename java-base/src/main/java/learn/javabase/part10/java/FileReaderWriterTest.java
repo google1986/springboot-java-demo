@@ -59,7 +59,7 @@ public class FileReaderWriterTest {
             while ((data = fr.read()) != -1) {
                 System.out.print((char) data);
             }
-        } catch (IOException e) {
+        } catch (IOException  e) {
             e.printStackTrace();
         } finally {
             //4.流的关闭操作

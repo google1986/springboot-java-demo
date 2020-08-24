@@ -1,19 +1,19 @@
 
-E
-java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
-Q	java:S125N"<This block of commented-out lines of code should be removed.(™¾›í
->
-java:S1148'"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
 >
 java:S1148Y"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
 >
 java:S1148g"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+E
+java:S2093E"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
 >
 java:S1148_"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
 Q	java:S125"<This block of commented-out lines of code should be removed.(™¾›í
+Q	java:S125N"<This block of commented-out lines of code should be removed.(™¾›í
 >
 java:S11485"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+E
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+>
+java:S1148'"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
 >
 java:S1148-"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-E
-java:S2093E"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ

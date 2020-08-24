@@ -140,7 +140,7 @@ List subList(int fromIndex, int toIndex):返回从fromIndex到toIndex位置的�
 
         //Object remove(int index):移除指定index位置的元素，并返回此元素
         Object obj = list.remove(0);
-        System.out.println(obj);
+        System.out.println("obj="+obj);
         System.out.println(list);
 
         //Object set(int index, Object ele):设置指定index位置的元素为ele

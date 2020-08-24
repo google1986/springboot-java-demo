@@ -27,7 +27,6 @@ Optional.ofNullable(T t)：t可以为null
 //        girl = null;
         //of(T t):保证t是非空的
         Optional<Girl> optionalGirl = Optional.of(girl);
-
     }
 
     @Test
@@ -76,7 +75,6 @@ Optional.ofNullable(T t)：t可以为null
         boy = null;
         String girlName = getGirlName1(boy);
         System.out.println(girlName);
-
     }
 
     //使用Optional类的getGirlName():

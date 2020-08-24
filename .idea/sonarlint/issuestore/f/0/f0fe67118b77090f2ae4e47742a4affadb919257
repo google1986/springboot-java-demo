@@ -1,18 +1,19 @@
 
-V	java:S125'"<This block of commented-out lines of code should be removed.(ÝåÃ”ÿÿÿÿÿ
-V	java:S125B"<This block of commented-out lines of code should be removed.(àýÚ±ûÿÿÿÿ
-V	java:S125S"<This block of commented-out lines of code should be removed.(ªÝéùÿÿÿÿ
-V	java:S125="<This block of commented-out lines of code should be removed.(ÝåÃ”ÿÿÿÿÿ
-S	java:S106K"9Replace this use of System.out or System.err by a logger.(Êµ‡çþÿÿÿÿ
-S	java:S106-"9Replace this use of System.out or System.err by a logger.(Êµ‡çþÿÿÿÿ
-E
-java:S3740 "/Provide the parametrized type for this generic.(Á³öÆ
-P	java:S125D"<This block of commented-out lines of code should be removed.(€«v
-V	java:S125F"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
-Q	java:S125["<This block of commented-out lines of code should be removed.(º¬®À
-V	java:S125@"<This block of commented-out lines of code should be removed.(Ñò’Ýýÿÿÿÿ
-S	java:S106d"9Replace this use of System.out or System.err by a logger.(›„¤÷ûÿÿÿÿ
+S	java:S106."9Replace this use of System.out or System.err by a logger.(Êµ‡çþÿÿÿÿ
+Q	java:S125\"<This block of commented-out lines of code should be removed.(º¬®À
+V	java:S125A"<This block of commented-out lines of code should be removed.(Ñò’Ýýÿÿÿÿ
 t
-java:S22936"YReplace the type specification in this constructor call with the diamond operator ("<>").(çÔ‹¶þÿÿÿÿ
+java:S22937"YReplace the type specification in this constructor call with the diamond operator ("<>").(çÔ‹¶þÿÿÿÿ
 E
-java:S3740 "/Provide the parametrized type for this generic.(Á³öÆ
+java:S3740!"/Provide the parametrized type for this generic.(Á³öÆ
+P	java:S125E"<This block of commented-out lines of code should be removed.(€«v
+V	java:S125C"<This block of commented-out lines of code should be removed.(àýÚ±ûÿÿÿÿ
+S	java:S106e"9Replace this use of System.out or System.err by a logger.(›„¤÷ûÿÿÿÿ
+S	java:S106L"9Replace this use of System.out or System.err by a logger.(Êµ‡çþÿÿÿÿ
+V	java:S125T"<This block of commented-out lines of code should be removed.(ªÝéùÿÿÿÿ
+E
+java:S3740!"/Provide the parametrized type for this generic.(Á³öÆ
+^
+java:S1128"ARemove this unused import 'javax.lang.model.element.NestingKind'.(Ø§Ò±8èä†Ò¿.
+V	java:S125G"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+V	java:S125>"<This block of commented-out lines of code should be removed.(ÝåÃ”ÿÿÿÿÿ

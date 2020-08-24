@@ -27,7 +27,7 @@ public class TCPTest2 {
         //2.
         OutputStream os = socket.getOutputStream();
         //3.
-        FileInputStream fis = new FileInputStream(new File("beauty.jpg"));
+        FileInputStream fis = new FileInputStream(new File("object.dat"));
         //4.
         byte[] buffer = new byte[1024];
         int len;
@@ -52,7 +52,7 @@ public class TCPTest2 {
         //3.
         InputStream is = socket.getInputStream();
         //4.
-        FileOutputStream fos = new FileOutputStream(new File("beauty1.jpg"));
+        FileOutputStream fos = new FileOutputStream(new File("object2.dat"));
         //5.
         byte[] buffer = new byte[1024];
         int len;

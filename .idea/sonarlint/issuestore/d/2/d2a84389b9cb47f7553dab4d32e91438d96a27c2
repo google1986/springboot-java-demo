@@ -1,13 +1,13 @@
 
 >
 java:S11484"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-\
-java:S21423"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+N	java:S1067"9Replace this use of System.out or System.err by a logger.(õ¹ºº
 Y
 java:S22762"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(á˜ ¶
-N	java:S1067"9Replace this use of System.out or System.err by a logger.(õ¹ºº
+V	java:S125'"<This block of commented-out lines of code should be removed.(ÐãÎŠùÿÿÿÿ
+V	java:S125-"<This block of commented-out lines of code should be removed.(¸óžÒúÿÿÿÿ
 ]
 java:S2094X"BRemove this empty class, write its code or make it an "interface".(èùß§úÿÿÿÿ
-V	java:S125'"<This block of commented-out lines of code should be removed.(ÐãÎŠùÿÿÿÿ
+\
+java:S21423"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
 V	java:S125+"<This block of commented-out lines of code should be removed.(ÐãÎŠùÿÿÿÿ
-V	java:S125-"<This block of commented-out lines of code should be removed.(¸óžÒúÿÿÿÿ

@@ -98,7 +98,6 @@ public class StreamAPITest2 {
 
         List<Employee> employees = EmployeeData.getEmployees();
         List<Employee> employeeList = employees.stream().filter(e -> e.getSalary() > 6000).collect(Collectors.toList());
-
         employeeList.forEach(System.out::println);
         System.out.println();
         Set<Employee> employeeSet = employees.stream().filter(e -> e.getSalary() > 6000).collect(Collectors.toSet());

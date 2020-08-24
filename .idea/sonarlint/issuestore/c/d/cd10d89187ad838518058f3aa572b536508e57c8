@@ -1,0 +1,15 @@
+
+c
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(¿ôÅÇ
+Q
+java:S1854+";Remove this useless assignment to local variable "bufferr".(àÇùú
+e
+java:S2095@"JUse try-with-resources or close this "ServerSocket" in a "finally" clause.(ð¥§·þÿÿÿÿ
+i
+java:S2095F"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(£õ„›þÿÿÿÿ
+Y
+java:S2095"DUse try-with-resources or close this "Socket" in a "finally" clause.(ˆÝ›$
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(Ã¸œÝ
+B
+java:S1481+",Remove this unused "bufferr" local variable.(àÇùú
+S	java:S106N"9Replace this use of System.out or System.err by a logger.(»õ×ëÿÿÿÿÿ

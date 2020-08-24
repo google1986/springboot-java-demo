@@ -1,42 +1,42 @@
 
-]
-java:S1075‹"ARefactor your code to get this URI from a customizable parameter.(Çá×üÿÿÿÿ
 i
 java:S2095)"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ìÆœùÿÿÿÿ
->
-java:S11488"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-V	java:S125M"<This block of commented-out lines of code should be removed.(Ô„çùÿÿÿÿ
-E
-java:S2093Z"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
-W	java:S125§"<This block of commented-out lines of code should be removed.(Œ°‡¹üÿÿÿÿ
-?
-java:S1148Ê"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—Öóø
->
-java:S1148@"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-E
-java:S2093""*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
-O	java:S106”"9Replace this use of System.out or System.err by a logger.(Æã
->
-java:S1148}"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-W	java:S125‚"<This block of commented-out lines of code should be removed.(Ô„çùÿÿÿÿ
-?
-java:S1148»"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-h
-java:S2095("MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ü†áéúÿÿÿÿ
->
-java:S1148H"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-?
-java:S1148Ã"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-i
-java:S2095a"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ìÆœùÿÿÿÿ
->
-java:S1148m"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-F
-java:S2093 "*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
-h
-java:S2095`"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ü†áéúÿÿÿÿ
 ]
 java:S1075Œ"ARefactor your code to get this URI from a customizable parameter.(ÛÏÒºÿÿÿÿÿ
 >
+java:S1148@"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+O	java:S106”"9Replace this use of System.out or System.err by a logger.(Æã
+?
+java:S1148Ã"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+V	java:S125M"<This block of commented-out lines of code should be removed.(Ô„çùÿÿÿÿ
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—Öóø
+E
+java:S2093""*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+E
+java:S2093Z"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+>
 java:S1148u"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+i
+java:S2095a"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ìÆœùÿÿÿÿ
+W	java:S125§"<This block of commented-out lines of code should be removed.(Œ°‡¹üÿÿÿÿ
+]
+java:S1075‹"ARefactor your code to get this URI from a customizable parameter.(Çá×üÿÿÿÿ
+?
+java:S1148»"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?
+java:S1148Ê"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+W	java:S125‚"<This block of commented-out lines of code should be removed.(Ô„çùÿÿÿÿ
+>
+java:S1148}"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+>
+java:S1148H"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+F
+java:S2093 "*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+h
+java:S2095("MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ü†áéúÿÿÿÿ
+h
+java:S2095`"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ü†áéúÿÿÿÿ
+>
+java:S11488"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+>
+java:S1148m"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ

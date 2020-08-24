@@ -4,8 +4,10 @@ import learn.javabase.part13.java2.Employee;
 import learn.javabase.part13.java2.EmployeeData;
 import org.junit.Test;
 
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
 import java.util.stream.Stream;
 
@@ -37,6 +39,7 @@ public class StreamAPITest1 {
         System.out.println();
 //        distinct()——筛选，通过流所生成元素的 hashCode() 和 equals() 去除重复元素
 
+
         list.add(new Employee(1010,"刘强东",40,8000));
         list.add(new Employee(1010,"刘强东",41,8000));
         list.add(new Employee(1010,"刘强东",40,8000));
@@ -54,7 +57,6 @@ public class StreamAPITest1 {
 //        map(Function f)——接收一个函数作为参数，将元素转换成其他形式或提取信息，该函数会被应用到每个元素上，并将其映射成一个新的元素。
         List<String> list = Arrays.asList("aa", "bb", "cc", "dd");
         list.stream().map(str -> str.toUpperCase()).forEach(System.out::println);
-
 //        练习1：获取员工姓名长度大于3的员工的姓名。
         List<Employee> employees = EmployeeData.getEmployees();
         Stream<String> namesStream = employees.stream().map(Employee::getName);

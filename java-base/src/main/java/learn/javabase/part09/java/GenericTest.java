@@ -2,6 +2,7 @@ package learn.javabase.part09.java;
 
 import org.junit.Test;
 
+import javax.lang.model.element.NestingKind;
 import java.util.*;
 
 /**
@@ -36,7 +37,7 @@ public class GenericTest {
         list.add(89);
         list.add(88);
         //问题一：类型不安全
-//        list.add("Tom");
+        list.add("Tom");
 
         for(Object score : list){
             //问题二：强转时，可能出现ClassCastException
@@ -99,8 +100,5 @@ public class GenericTest {
             Integer value = e.getValue();
             System.out.println(key + "----" + value);
         }
-
     }
-
-
 }

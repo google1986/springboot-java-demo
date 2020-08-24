@@ -78,8 +78,5 @@ public class PathTest {
         File file = path1.toFile();//Path--->File的转换
 
         Path newPath = file.toPath();//File--->Path的转换
-
     }
-
-
 }

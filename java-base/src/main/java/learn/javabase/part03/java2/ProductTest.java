@@ -116,12 +116,19 @@ public class ProductTest {
         Producer p1 = new Producer(clerk);
         p1.setName("生产者1");
 
+        Producer p2 = new Producer(clerk);
+        p2.setName("生产者2");
+        Producer p3 = new Producer(clerk);
+        p3.setName("生产者3");
+
         Consumer c1 = new Consumer(clerk);
         c1.setName("消费者1");
         Consumer c2 = new Consumer(clerk);
         c2.setName("消费者2");
 
         p1.start();
+        p2.start();
+        p3.start();
         c1.start();
         c2.start();
 

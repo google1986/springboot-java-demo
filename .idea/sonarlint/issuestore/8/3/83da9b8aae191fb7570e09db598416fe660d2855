@@ -1,12 +1,12 @@
 
-Z	java:S112J"FDefine and throw a dedicated exception instead of using a generic one.(‚‡¢n
 E
-java:S3740K"/Provide the parametrized type for this generic.(Š‘Ş›
-I
-java:S1874L"3Remove this use of "newInstance"; it is deprecated.(Ô¯äĞ
-N
-java:S1874"3Remove this use of "newInstance"; it is deprecated.(˜ßıÿÿÿÿ
+java:S3740L"/Provide the parametrized type for this generic.(Š‘Ş›
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Áªø
 >
-java:S1148<"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Áªø
-N	java:S106:"9Replace this use of System.out or System.err by a logger.(Áªø
+java:S1148="#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+N	java:S106;"9Replace this use of System.out or System.err by a logger.(Áªø
+N
+java:S1874"3Remove this use of "newInstance"; it is deprecated.(˜ßıÿÿÿÿ
+Z	java:S112K"FDefine and throw a dedicated exception instead of using a generic one.(‚‡¢n
+I
+java:S1874M"3Remove this use of "newInstance"; it is deprecated.(Ô¯äĞ

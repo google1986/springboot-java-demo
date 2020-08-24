@@ -1,0 +1,17 @@
+
+>
+java:S1604"(Make this anonymous inner class a lambda(ÚØ•¹
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(¤†Ÿƒÿÿÿÿÿ
+G
+java:S16123",Replace this lambda with a method reference.(ÛÓæÖüÿÿÿÿ
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(Ş‘›ïøÿÿÿÿ
+S	java:S1069"9Replace this use of System.out or System.err by a logger.(Ş‘›ïøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ì®ÔÅøÿÿÿÿ
+E
+java:S1604'"(Make this anonymous inner class a lambda(Õµöê8‹‰²œº.
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(ù·«ºüÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ş‘›ïøÿÿÿÿ
+s
+java:S1192"XDefine a constant instead of duplicating this literal "***********************" 3 times.(Ş‘›ïøÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(‡æå›
+N	java:S1066"9Replace this use of System.out or System.err by a logger.(˜ïÓÓ

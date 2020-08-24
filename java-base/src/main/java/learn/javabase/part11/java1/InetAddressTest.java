@@ -36,7 +36,6 @@ import java.net.UnknownHostException;
 public class InetAddressTest {
 
     public static void main(String[] args) {
-
         try {
             //File file = new File("hello.txt");
             InetAddress inet1 = InetAddress.getByName("192.168.10.14");
@@ -61,9 +60,5 @@ public class InetAddressTest {
         } catch (UnknownHostException e) {
             e.printStackTrace();
         }
-
-
     }
-
-
 }

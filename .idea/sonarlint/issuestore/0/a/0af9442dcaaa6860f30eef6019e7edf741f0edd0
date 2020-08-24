@@ -1,9 +1,6 @@
 
-U	java:S106;"9Replace this use of System.out or System.err by a logger.(ÉÈïŒ8‘œ¤Ã².
-Z	java:S106["9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8»‡ÄÃ².
-T	java:S106a"9Replace this use of System.out or System.err by a logger.(²ÏË8Î¯ÉÃ².
-Z	java:S1067"9Replace this use of System.out or System.err by a logger.(ëÂíÙùÿÿÿÿ8¹Ô”Ã².
-r
-java:S1104
-"PMake data a static final constant or non-public and provide accessors if needed.(—Şø®ÿÿÿÿÿ8‚´ÄÀ².
-U	java:S106Y"9Replace this use of System.out or System.err by a logger.(ñ‚Ã¸8¯ëÃÃ².
+U	java:S106>"9Replace this use of System.out or System.err by a logger.(ÉÈïŒ8šªåú¿.
+Z	java:S106:"9Replace this use of System.out or System.err by a logger.(ëÂíÙùÿÿÿÿ8šªåú¿.
+T	java:S106e"9Replace this use of System.out or System.err by a logger.(²ÏË8šªåú¿.
+Z	java:S106^"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8šªåú¿.
+U	java:S106\"9Replace this use of System.out or System.err by a logger.(ñ‚Ã¸8šªåú¿.

@@ -7,7 +7,8 @@ import java.io.*;
 /**
  * 对象流的使用
  * 1.ObjectInputStream 和 ObjectOutputStream
- * 2.作用：用于存储和读取基本数据类型数据或对象的处理流。它的强大之处就是可以把Java中的对象写入到数据源中，也能把对象从数据源中还原回来。
+ * 2.作用：用于存储和读取基本数据类型数据或对象的处理流。它的强大之处就是可以把Java中的对象写入到数据源中，
+ * 也能把对象从数据源中还原回来。
  *
  * 3.要想一个java对象是可序列化的，需要满足相应的要求。见Person.java
  *
@@ -93,9 +94,5 @@ public class ObjectInputOutputStreamTest {
 
             }
         }
-
-
-
     }
-
 }

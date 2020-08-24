@@ -50,8 +50,6 @@ public class DateTimeTest {
         //情况二：
         Date date6 = new Date();
         java.sql.Date date7 = new java.sql.Date(date6.getTime());
-
-
     }
 
     //1.System类中的currentTimeMillis()

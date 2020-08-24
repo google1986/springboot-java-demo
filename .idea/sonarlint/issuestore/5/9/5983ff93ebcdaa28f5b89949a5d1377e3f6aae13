@@ -1,0 +1,24 @@
+
+Q
+java:S1854P";Remove this useless assignment to local variable "newPath".(…Óø
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(©ªÉşÿÿÿÿ
+Z	java:S106<"9Replace this use of System.out or System.err by a logger.(”ÙİÈùÿÿÿÿ8Ÿé‡œº.
+M	java:S106="9Replace this use of System.out or System.err by a logger.(Ã²÷Y
+U	java:S106/"9Replace this use of System.out or System.err by a logger.(®˜Š›8Ÿé‡œº.
+N	java:S106F"9Replace this use of System.out or System.err by a logger.(œÏÇÄ
+S	java:S106K"9Replace this use of System.out or System.err by a logger.(±Öî¤ûÿÿÿÿ
+B
+java:S1481P",Remove this unused "newPath" local variable.(…Óø
+U	java:S1069"9Replace this use of System.out or System.err by a logger.(éìÉä8Ÿé‡œº.
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(í¡‚ùÿÿÿÿ
+Z	java:S1063"9Replace this use of System.out or System.err by a logger.(÷ãâƒøÿÿÿÿ8Ÿé‡œº.
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(ÂÖşøÿÿÿÿ
+S	java:S106""9Replace this use of System.out or System.err by a logger.(±Öî¤ûÿÿÿÿ
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(—À‰Æúÿÿÿÿ
+S	java:S106:"9Replace this use of System.out or System.err by a logger.(›•´Úúÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(Äúš›
+Z	java:S1066"9Replace this use of System.out or System.err by a logger.(Ìòİşÿÿÿÿ8Ÿé‡œº.
+U	java:S106E"9Replace this use of System.out or System.err by a logger.(ò¿‰Á8Ÿé‡œº.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÂÖşøÿÿÿÿ
+S	java:S1067"9Replace this use of System.out or System.err by a logger.(ä¦¡Èşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(é‹Ó¡ıÿÿÿÿ

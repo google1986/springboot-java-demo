@@ -1,0 +1,51 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(ÕÝÿî
+N	java:S1068"9Replace this use of System.out or System.err by a logger.(ç’¤™
+<
+java:S2129'"!Remove this "Integer" constructor(ºÀÃþÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(™Ôôóûÿÿÿÿ
+N	java:S106>"9Replace this use of System.out or System.err by a logger.(ç’¤™
+E
+java:S3740*"/Provide the parametrized type for this generic.(æ“ïÕ
+<
+java:S2129)"!Remove this "Integer" constructor(±¤º§úÿÿÿÿ
+<
+java:S2129%"!Remove this "Integer" constructor(¶É½Êúÿÿÿÿ
+E
+java:S3740 "/Provide the parametrized type for this generic.(ØÌžé
+<
+java:S2129("!Remove this "Integer" constructor(±¤º§úÿÿÿÿ
+J
+java:S1874)"/Remove this use of "Integer"; it is deprecated.(±¤º§úÿÿÿÿ
+E
+java:S3740"/Provide the parametrized type for this generic.(¹¤¡ß
+J
+java:S1874%"/Remove this use of "Integer"; it is deprecated.(¶É½Êúÿÿÿÿ
+J
+java:S1874&"/Remove this use of "Integer"; it is deprecated.(ºÀÃþÿÿÿÿ
+E
+java:S3740"/Provide the parametrized type for this generic.(¹¤¡ß
+J
+java:S1874'"/Remove this use of "Integer"; it is deprecated.(ºÀÃþÿÿÿÿ
+E
+java:S37402"/Provide the parametrized type for this generic.(æÔ–Å
+E
+java:S3740"/Provide the parametrized type for this generic.(æÔ–Å
+E
+java:S3740$"/Provide the parametrized type for this generic.(† òÝ
+E
+java:S3740$"/Provide the parametrized type for this generic.(† òÝ
+N	java:S106,"9Replace this use of System.out or System.err by a logger.(«òˆì
+E
+java:S3740"/Provide the parametrized type for this generic.(æÔ–Å
+<
+java:S2129&"!Remove this "Integer" constructor(ºÀÃþÿÿÿÿ
+J
+java:S1874("/Remove this use of "Integer"; it is deprecated.(±¤º§úÿÿÿÿ
+E
+java:S37402"/Provide the parametrized type for this generic.(æÔ–Å
+N	java:S106@"9Replace this use of System.out or System.err by a logger.(ç’¤™
+E
+java:S3740"/Provide the parametrized type for this generic.(ÕÝÿî
+N	java:S106<"9Replace this use of System.out or System.err by a logger.(ç’¤™

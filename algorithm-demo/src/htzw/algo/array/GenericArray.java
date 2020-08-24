@@ -1,6 +1,5 @@
 package htzw.algo.array;
 
-import java.util.Objects;
 
 /**
  * @author gu.lian.jun

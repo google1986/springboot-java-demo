@@ -1,19 +1,19 @@
 
-N
-java:S18545"8Remove this useless assignment to local variable "arr4".(øóˆ½
-L
-java:S1854'"6Remove this useless assignment to local variable "id".(‰»«ß
-R
-java:S1854&"7Remove this useless assignment to local variable "num".(‰Êý’úÿÿÿÿ
-N	java:S106D"9Replace this use of System.out or System.err by a logger.(ùßôƒ
-S	java:S106E"9Replace this use of System.out or System.err by a logger.(Ðã–§þÿÿÿÿ
-S	java:S106O"9Replace this use of System.out or System.err by a logger.(ŒŸ¼¥üÿÿÿÿ
-<
-java:S1481%"(Remove this unused "num" local variable.(ŽÉ;
-=
-java:S1481'"'Remove this unused "id" local variable.(‰»«ß
 ?
 java:S14815")Remove this unused "arr4" local variable.(øóˆ½
+N	java:S106D"9Replace this use of System.out or System.err by a logger.(ùßôƒ
+V	java:S125H"<This block of commented-out lines of code should be removed.(è—ü‘ûÿÿÿÿ
+L
+java:S1854'"6Remove this useless assignment to local variable "id".(‰»«ß
+S	java:S106O"9Replace this use of System.out or System.err by a logger.(ŒŸ¼¥üÿÿÿÿ
+=
+java:S1481'"'Remove this unused "id" local variable.(‰»«ß
 V	java:S1250"<This block of commented-out lines of code should be removed.(Žì‰‰ùÿÿÿÿ
 V	java:S125@"<This block of commented-out lines of code should be removed.(òé¹ƒüÿÿÿÿ
-V	java:S125H"<This block of commented-out lines of code should be removed.(è—ü‘ûÿÿÿÿ
+R
+java:S1854&"7Remove this useless assignment to local variable "num".(‰Êý’úÿÿÿÿ
+N
+java:S18545"8Remove this useless assignment to local variable "arr4".(øóˆ½
+<
+java:S1481%"(Remove this unused "num" local variable.(ŽÉ;
+S	java:S106E"9Replace this use of System.out or System.err by a logger.(Ðã–§þÿÿÿÿ

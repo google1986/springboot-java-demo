@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
 import java.util.Date;
 
 /**
@@ -126,7 +127,7 @@ public boolean isHidden() ：判断是否隐藏
     @Test
     public void test5(){
         File file1 = new File("hello.txt");
-        file1 = new File("hello1.txt");
+        file1 = new File("H:\\办公区域");
 
         System.out.println(file1.isDirectory());
         System.out.println(file1.isFile());

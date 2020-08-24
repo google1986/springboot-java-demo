@@ -25,6 +25,7 @@ public class NewInstanceTest {
          *         1.便于通过反射，创建运行时类的对象
          *         2.便于子类继承此运行时类时，默认调用super()时，保证父类有此构造器
          */
+
         Person obj = clazz.newInstance();
         System.out.println(obj);
 

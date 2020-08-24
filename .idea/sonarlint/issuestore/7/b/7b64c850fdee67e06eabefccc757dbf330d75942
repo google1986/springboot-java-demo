@@ -1,0 +1,49 @@
+
+j
+java:S1192+"TDefine a constant instead of duplicating this literal "*******************" 8 times.(â÷ºß
+G
+java:S1612(",Replace this lambda with a method reference.(æ°¦Çøÿÿÿÿ
+B
+java:S16127",Replace this lambda with a method reference.(İâĞê
+G
+java:S1612E",Replace this lambda with a method reference.(ŸªÎ¥üÿÿÿÿ
+A
+java:S1612\",Replace this lambda with a method reference.(Îˆá
+H
+java:S1612†",Replace this lambda with a method reference.(şÄæøÿÿÿÿ
+>
+java:S1604S"(Make this anonymous inner class a lambda(åù¢ı
+S	java:S106("9Replace this use of System.out or System.err by a logger.(æ°¦Çøÿÿÿÿ
+N	java:S106+"9Replace this use of System.out or System.err by a logger.(â÷ºß
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(·Ü‹ûÿÿÿÿ
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(®ò¨Øÿÿÿÿÿ
+N	java:S106:"9Replace this use of System.out or System.err by a logger.(â÷ºß
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(ÉÓË‚ùÿÿÿÿ
+S	java:S106F"9Replace this use of System.out or System.err by a logger.(ÂÚÍÌøÿÿÿÿ
+N	java:S106H"9Replace this use of System.out or System.err by a logger.(â÷ºß
+S	java:S106K"9Replace this use of System.out or System.err by a logger.(—å’øıÿÿÿÿ
+N
+java:S1854S"8Remove this useless assignment to local variable "func".(åù¢ı
+p
+java:S4276S"ZRefactor this code to use the more specialised Functional Interface 'DoubleToLongFunction'(åù¢ı
+N	java:S106Z"9Replace this use of System.out or System.err by a logger.(â÷ºß
+o
+java:S4276\"ZRefactor this code to use the more specialised Functional Interface 'DoubleToLongFunction'(Îˆá
+N	java:S106]"9Replace this use of System.out or System.err by a logger.(İ–®à
+N	java:S106_"9Replace this use of System.out or System.err by a logger.(â÷ºß
+p
+java:S4276a"ZRefactor this code to use the more specialised Functional Interface 'DoubleToLongFunction'(ğÒ¸§
+S	java:S106b"9Replace this use of System.out or System.err by a logger.(«ª¨şÿÿÿÿ
+N	java:S106k"9Replace this use of System.out or System.err by a logger.(¿Ğ¾„
+N	java:S106m"9Replace this use of System.out or System.err by a logger.(â÷ºß
+N	java:S106p"9Replace this use of System.out or System.err by a logger.(·˜Æˆ
+S	java:S106x"9Replace this use of System.out or System.err by a logger.(Ò·êûÿÿÿÿ
+N	java:S106z"9Replace this use of System.out or System.err by a logger.(â÷ºß
+M	java:S106|"9Replace this use of System.out or System.err by a logger.(­¯Ü
+T	java:S106‡"9Replace this use of System.out or System.err by a logger.(®¤¯©ùÿÿÿÿ
+O	java:S106‰"9Replace this use of System.out or System.err by a logger.(â÷ºß
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ßôàT
+?
+java:S1481S")Remove this unused "func" local variable.(åù¢ı
+Q	java:S125s"<This block of commented-out lines of code should be removed.(ıÍ¸˜
+W	java:S125€"<This block of commented-out lines of code should be removed.(¤Ô¶Šûÿÿÿÿ

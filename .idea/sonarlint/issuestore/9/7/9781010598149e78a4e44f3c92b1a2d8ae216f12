@@ -1,29 +1,29 @@
 
->
-java:S1148%"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
->
-java:S11486"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
->
-java:S1148N"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+S	java:S106G"9Replace this use of System.out or System.err by a logger.(•õ¦ûÿÿÿÿ
 >
 java:S1148g"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Ò
-K
-java:S2446"0"notify" may not wake up the appropriate thread.(óÄ£¶øÿÿÿÿ
-\
-java:S2142$"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
-O
-java:S2274#":Remove this call to "wait" or move it into a "while" loop.(ç£ŠM
-N	java:S106-"9Replace this use of System.out or System.err by a logger.(Ã×æó
-K
-java:S24460"0"notify" may not wake up the appropriate thread.(óÄ£¶øÿÿÿÿ
-\
-java:S21425"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
-O
-java:S22744":Remove this call to "wait" or move it into a "while" loop.(ç£ŠM
-S	java:S106G"9Replace this use of System.out or System.err by a logger.(•õ¦ûÿÿÿÿ
-\
-java:S2142M"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
 N	java:S106`"9Replace this use of System.out or System.err by a logger.(Æ÷ž©
 \
 java:S2142f"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+O
+java:S22744":Remove this call to "wait" or move it into a "while" loop.(ç£ŠM
+O
+java:S2274#":Remove this call to "wait" or move it into a "while" loop.(ç£ŠM
+K
+java:S24460"0"notify" may not wake up the appropriate thread.(óÄ£¶øÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ò
+\
+java:S21425"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+\
+java:S2142$"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+>
+java:S11486"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+N	java:S106-"9Replace this use of System.out or System.err by a logger.(Ã×æó
+K
+java:S2446"0"notify" may not wake up the appropriate thread.(óÄ£¶øÿÿÿÿ
+>
+java:S1148N"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+>
+java:S1148%"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+\
+java:S2142M"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€

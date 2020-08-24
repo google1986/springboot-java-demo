@@ -36,6 +36,7 @@ public class TCPTest3 {
         //关闭数据的输出
         socket.shutdownOutput();
 
+
         //5.接收来自于服务器端的数据，并显示到控制台上
         InputStream is = socket.getInputStream();
         ByteArrayOutputStream baos = new ByteArrayOutputStream();

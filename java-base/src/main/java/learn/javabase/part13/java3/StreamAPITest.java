@@ -39,7 +39,6 @@ public class StreamAPITest {
     @Test
     public void test1(){
         List<Employee> employees = EmployeeData.getEmployees();
-
 //        default Stream<E> stream() : 返回一个顺序流
         Stream<Employee> stream = employees.stream();
 

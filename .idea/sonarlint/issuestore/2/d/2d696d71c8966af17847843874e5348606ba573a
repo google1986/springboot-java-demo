@@ -1,0 +1,15 @@
+
+>
+java:S1148("#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+E
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+i
+java:S2095O"NUse try-with-resources or close this "RandomAccessFile" in a "finally" clause.(ò°¬’ûÿÿÿÿ
+e
+java:S1192A"JDefine a constant instead of duplicating this literal "hello.txt" 3 times.(ò°¬’ûÿÿÿÿ
+>
+java:S11487"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+>
+java:S1148/"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+i
+java:S2095A"NUse try-with-resources or close this "RandomAccessFile" in a "finally" clause.(ò°¬’ûÿÿÿÿ

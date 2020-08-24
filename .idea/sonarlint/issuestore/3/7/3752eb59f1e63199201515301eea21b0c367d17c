@@ -1,0 +1,22 @@
+
+Z
+java:S2147U"DCombine this catch with the one at line 83, which has the same body.(ıàÑÎ
+5
+java:S2129&" Remove this "String" constructor(¢¡âV
+S	java:S106Q"9Replace this use of System.out or System.err by a logger.(¨ô¢¨ıÿÿÿÿ
+>
+java:S11480"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+>
+java:S1148\"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+E
+java:S2093F"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+M	java:S106O"9Replace this use of System.out or System.err by a logger.(ƒÚáB
+>
+java:S11487"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+>
+java:S1148V"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+>
+java:S1148T"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+E
+java:S2093""*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+S	java:S106P"9Replace this use of System.out or System.err by a logger.(úõ–áùÿÿÿÿ

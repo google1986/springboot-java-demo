@@ -1,0 +1,12 @@
+
+i
+java:S4276("TRefactor this code to use the more specialised Functional Interface 'DoubleConsumer'(À¸‰
+N	java:S106%"9Replace this use of System.out or System.err by a logger.(Óòïˆ
+N	java:S106<"9Replace this use of System.out or System.err by a logger.(Û¹ÕÌ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(µ¡³˜üÿÿÿÿ8û¹…º.
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(„—óøÿÿÿÿ
+S	java:S106#"9Replace this use of System.out or System.err by a logger.( ­‡àúÿÿÿÿ
+=
+java:S16041"(Make this anonymous inner class a lambda(ÂÃŠw
+E
+java:S1604"(Make this anonymous inner class a lambda(ÐæÐŽ8û¹…º.

@@ -1,40 +1,40 @@
 
-Q	java:S1253"<This block of commented-out lines of code should be removed.(ø¾¯İ
->
-java:S1148}"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
->
-java:S1148?"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
 ?
 java:S1148á"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-E
-java:S2093X"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
-?
-java:S1148è"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+W	java:S125Ï"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ
+e
+java:S1192"JDefine a constant instead of duplicating this literal "hello.txt" 4 times.(Â¾ùúÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(˜ãôº
 V	java:S125j"<This block of commented-out lines of code should be removed.(¶¾ÄÁûÿÿÿÿ
-?
-java:S1148§"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(É¸¦ûÿÿÿÿ
+Q	java:S1253"<This block of commented-out lines of code should be removed.(ø¾¯İ
 >
-java:S1148M"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+java:S1148?"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+V	java:S125o"<This block of commented-out lines of code should be removed.(››Âúÿÿÿÿ
 E
 java:S2093*"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
-N	java:S106s"9Replace this use of System.out or System.err by a logger.(…Ÿ¥’
-V	java:S125f"<This block of commented-out lines of code should be removed.(ãÖãÅøÿÿÿÿ
-V	java:S125o"<This block of commented-out lines of code should be removed.(››Âúÿÿÿÿ
-S	java:S106<"9Replace this use of System.out or System.err by a logger.(É¸¦ûÿÿÿÿ
 ?
 java:S1148Ë"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
 ?
 java:S1148Ÿ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
->
-java:S1148v"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-e
-java:S1192"JDefine a constant instead of duplicating this literal "hello.txt" 4 times.(Â¾ùúÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.( £‰
-N	java:S106"9Replace this use of System.out or System.err by a logger.(˜ãôº
-F
-java:S2093³"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
-V	java:S125B"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ
 F
 java:S2093”"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
-W	java:S125Ï"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ
+V	java:S125B"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ
+N	java:S106s"9Replace this use of System.out or System.err by a logger.(…Ÿ¥’
+>
+java:S1148}"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
 W	java:S125¹"<This block of commented-out lines of code should be removed.(İÍ»´øÿÿÿÿ
+>
+java:S1148v"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+V	java:S125f"<This block of commented-out lines of code should be removed.(ãÖãÅøÿÿÿÿ
+F
+java:S2093³"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+?
+java:S1148è"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.( £‰
+E
+java:S2093X"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+>
+java:S1148M"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?
+java:S1148§"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ

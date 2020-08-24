@@ -1,13 +1,13 @@
 
-f
-java:S2095J"PUse try-with-resources or close this "OutputStreamWriter" in a "finally" clause.(¨ßÞË
-e
-java:S2095I"OUse try-with-resources or close this "InputStreamReader" in a "finally" clause.(©³â¹
 e
 java:S2095."OUse try-with-resources or close this "InputStreamReader" in a "finally" clause.(¾ôÄ¶
+e
+java:S2095I"OUse try-with-resources or close this "InputStreamReader" in a "finally" clause.(©³â¹
+O
+java:S4719I"9Replace charset name argument with StandardCharsets.UTF_8(©³â¹
 `	java:S112A"FDefine and throw a dedicated exception instead of using a generic one.(ÙÓÆøúÿÿÿÿ
 O
 java:S4719."9Replace charset name argument with StandardCharsets.UTF_8(¾ôÄ¶
 N	java:S1064"9Replace this use of System.out or System.err by a logger.(…Ÿ¥’
-O
-java:S4719I"9Replace charset name argument with StandardCharsets.UTF_8(©³â¹
+f
+java:S2095J"PUse try-with-resources or close this "OutputStreamWriter" in a "finally" clause.(¨ßÞË

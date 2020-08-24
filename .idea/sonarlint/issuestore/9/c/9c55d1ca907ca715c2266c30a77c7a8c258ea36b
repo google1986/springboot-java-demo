@@ -1,4 +1,7 @@
 
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¢¡¶»úÿÿÿÿ
 7
 java:S1643"Use a StringBuilder instead.(Öòùÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ú—±Àúÿÿÿÿ
+J
+java:S1481
+"(Remove this unused "tel" local variable.(°·Ùçøÿÿÿÿ8±‘Ï•¼.

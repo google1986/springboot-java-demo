@@ -1,0 +1,18 @@
+
+V
+java:S1854"@Remove this useless assignment to local variable "optionalGirl".(¢¸Í·
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(ôÉ²²ÿÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(¿”ôüÿÿÿÿ
+R
+java:S18545"7Remove this useless assignment to local variable "boy".(†’°ïøÿÿÿÿ
+N	java:S106*"9Replace this use of System.out or System.err by a logger.(­¬Õý
+M
+java:S1854c"7Remove this useless assignment to local variable "boy".(ÑÓ…Á
+S	java:S106f"9Replace this use of System.out or System.err by a logger.(ôÉ²²ÿÿÿÿÿ
+G
+java:S1481"1Remove this unused "optionalGirl" local variable.(¢¸Í·
+S	java:S106M"9Replace this use of System.out or System.err by a logger.(ôÉ²²ÿÿÿÿÿ
+V	java:S125#"<This block of commented-out lines of code should be removed.(¿”ôüÿÿÿÿ
+R
+java:S1854J"7Remove this useless assignment to local variable "boy".(†’°ïøÿÿÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(Ü¦Ôüÿÿÿÿ

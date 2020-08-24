@@ -1,5 +1,7 @@
 package htzw.algo.array;
 
+import org.junit.Test;
+
 /**
  * @author gu.lian.jun
  * @version 1.0
@@ -7,7 +9,7 @@ package htzw.algo.array;
  */
 public class ArrayDemo {
     // 定义整数类型data保存数据
-    public int[] data;
+    private int[] data;
     // 定义数组长度
     private int n;
     // 定义实际个数
@@ -38,6 +40,7 @@ public class ArrayDemo {
         }
         return data[index];
     }
+
 
     /**
      * 插入元素：头部插入、尾部插入
@@ -91,7 +94,8 @@ public class ArrayDemo {
         System.out.println();
     }
 
-    public static void main(String[] args) {
+    @Test
+    public  void main(String[] args) {
         ArrayDemo arrayDemo = new ArrayDemo();
         arrayDemo.printAll();
         System.out.println("=================");

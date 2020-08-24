@@ -157,7 +157,7 @@ public class LambdaTest1 {
 
         System.out.println("*****************************");
 
-        Comparator<Integer> com2 = (o1,o2) -> o1.compareTo(o2);
+        Comparator<Integer> com2 = Integer::compareTo;
 
         System.out.println(com2.compare(12,21));
 

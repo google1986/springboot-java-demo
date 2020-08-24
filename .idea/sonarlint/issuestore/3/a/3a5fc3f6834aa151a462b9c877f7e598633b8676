@@ -1,0 +1,48 @@
+
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(ñ›ù≈
+`
+java:S2095`"JUse try-with-resources or close this "OutputStream" in a "finally" clause.(¢∂àº
+V	java:S125."<This block of commented-out lines of code should be removed.(…öø„¯ˇˇˇˇ
+V	java:S125E"<This block of commented-out lines of code should be removed.(ê≥õÃ¯ˇˇˇˇ
+F
+java:S1481]"0Remove this unused "inputStream" local variable.(ΩôΩ‹
+`
+java:S1192"JDefine a constant instead of duplicating this literal "hello.txt" 3 times.(™Ë∫›
+c
+java:S2095h"MUse try-with-resources or close this "DirectoryStream" in a "finally" clause.(¯√Î»
+Q	java:S125"<This block of commented-out lines of code should be removed.(¶âñ•
+Q	java:S125$"<This block of commented-out lines of code should be removed.(Õ÷Õ≥
+V	java:S125'"<This block of commented-out lines of code should be removed.(Êàî«˛ˇˇˇˇ
+V	java:S125"<This block of commented-out lines of code should be removed.(Áí¸á˙ˇˇˇˇ
+T
+java:S1854#"9Remove this useless assignment to local variable "path4".(ôÎ˛—˚ˇˇˇˇ
+N	java:S106J"9Replace this use of System.out or System.err by a logger.(≠ı¶‚
+S	java:S106L"9Replace this use of System.out or System.err by a logger.(ìÔŒ˚ˇˇˇˇ
+l
+java:S2095d"QUse try-with-resources or close this "SeekableByteChannel" in a "finally" clause.(∏»Ä‹˙ˇˇˇˇ
+G
+java:S1481`"1Remove this unused "outputStream" local variable.(¢∂àº
+S	java:S106H"9Replace this use of System.out or System.err by a logger.(Ó‚…Ÿ¸ˇˇˇˇ
+^
+java:S1192"HDefine a constant instead of duplicating this literal "d:\\nio" 3 times.(™Ë∫›
+O
+java:S1854"9Remove this useless assignment to local variable "path1".(™Ë∫›
+@
+java:S1481"*Remove this unused "path1" local variable.(™Ë∫›
+S	java:S106k"9Replace this use of System.out or System.err by a logger.(°πó“¯ˇˇˇˇ
+V
+java:S1854`"@Remove this useless assignment to local variable "outputStream".(¢∂àº
+N	java:S106?"9Replace this use of System.out or System.err by a logger.(‡“‘·
+_
+java:S2095]"IUse try-with-resources or close this "InputStream" in a "finally" clause.(ΩôΩ‹
+S	java:S106;"9Replace this use of System.out or System.err by a logger.(≠©≠˛˚ˇˇˇˇ
+U
+java:S1854]"?Remove this useless assignment to local variable "inputStream".(ΩôΩ‹
+E
+java:S1481#"*Remove this unused "path4" local variable.(ôÎ˛—˚ˇˇˇˇ
+V
+java:S1854d";Remove this useless assignment to local variable "channel".(∏»Ä‹˙ˇˇˇˇ
+Ç
+java:S11307"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(∏·‡ó
+G
+java:S1481d",Remove this unused "channel" local variable.(∏»Ä‹˙ˇˇˇˇ

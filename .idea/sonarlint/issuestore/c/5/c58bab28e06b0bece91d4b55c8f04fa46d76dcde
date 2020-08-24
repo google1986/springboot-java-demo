@@ -1,0 +1,18 @@
+
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(èëËıÿÿÿÿ8™Ûãµ¾.
+U	java:S106D"9Replace this use of System.out or System.err by a logger.(áñÁ·8÷Õ†¶¾.
+U	java:S106<"9Replace this use of System.out or System.err by a logger.(áç–‰8êÑıµ¾.
+Z	java:S106-"9Replace this use of System.out or System.err by a logger.(”º¬çÿÿÿÿÿ8Úığµ¾.
+Z	java:S106?"9Replace this use of System.out or System.err by a logger.(úõ–áùÿÿÿÿ8¬Æşµ¾.
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(”º¬çÿÿÿÿÿ8âàêµ¾.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(èëËıÿÿÿÿ8Ğ‰áµ¾.
+W
+java:S1191"5Use classes from the Java API instead of Sun classes.(Õú·“şÿÿÿÿ8õµ¾.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(èëËıÿÿÿÿ8îšÙµ¾.
+U	java:S1062"9Replace this use of System.out or System.err by a logger.(öş‡8ÊÆöµ¾.
+b
+java:S2133:"@Remove this object instantiation and use "Person.class" instead.(½Ñã„üÿÿÿÿ8ÄÎûµ¾.
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(ùœÅÛıÿÿÿÿ8ùÄúµ¾.
+f
+java:S1128"DRemove this unused import 'sun.plugin2.message.ShowDocumentMessage'.(Õú·“şÿÿÿÿ8õµ¾.
+U	java:S106B"9Replace this use of System.out or System.err by a logger.(Õ²óø8ü¶¾.

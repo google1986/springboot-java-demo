@@ -1,8 +1,8 @@
 
 S
 java:S2696%"6Make the enclosing method "static" or remove this set.(àÈóÆ8¦ý¬•±.
+U	java:S106$"9Replace this use of System.out or System.err by a logger.(”„¸¿8¦ý¬•±.
 W
 java:S1191"5Use classes from the Java API instead of Sun classes.(èú¨Óþÿÿÿÿ8üˆ«•±.
-U	java:S106$"9Replace this use of System.out or System.err by a logger.(”„¸¿8¦ý¬•±.
 k
 java:S1128"IRemove this unused import 'com.sun.org.apache.bcel.internal.generic.NEW'.(èú¨Óþÿÿÿÿ8üˆ«•±.

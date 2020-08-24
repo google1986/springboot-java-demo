@@ -1,18 +1,18 @@
 
-M	java:S106I"9Replace this use of System.out or System.err by a logger.(ÿßœ+
-X	java:S125'"<This block of commented-out lines of code should be removed.(ÃÍü–8¯‘·².
-S	java:S106K"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(äîÓÕþÿÿÿÿ8—Ï·².
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ŸÓÓ¦þÿÿÿÿ8†ë’·².
 E
 java:S37400"/Provide the parametrized type for this generic.(ÉÄÝÙ
+U	java:S1066"9Replace this use of System.out or System.err by a logger.(‰ù®Í8Õ‘·².
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8’ÈŸ·².
 J
 java:S3740D"/Provide the parametrized type for this generic.(Ý„ÆÚýÿÿÿÿ
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(äîÓÕþÿÿÿÿ8—Ï·².
-Z	java:S1067"9Replace this use of System.out or System.err by a logger.(‘ö¨›ùÿÿÿÿ8™¸ž·².
-W	java:S125 "<This block of commented-out lines of code should be removed.(Ã¡Ô-8¯‘·².
-U	java:S106"9Replace this use of System.out or System.err by a logger.(§è»8ð¹”·².
-Z	java:S1068"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8’ÈŸ·².
-U	java:S1066"9Replace this use of System.out or System.err by a logger.(‰ù®Í8Õ‘·².
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ŸÓÓ¦þÿÿÿÿ8†ë’·².
 S	java:S106A"9Replace this use of System.out or System.err by a logger.(¨ùÄùÿÿÿÿ
+W	java:S125 "<This block of commented-out lines of code should be removed.(Ã¡Ô-8¯‘·².
 Z	java:S1064"9Replace this use of System.out or System.err by a logger.(ûè»ëúÿÿÿÿ8¤Äš·².
+X	java:S125'"<This block of commented-out lines of code should be removed.(ÃÍü–8¯‘·².
 N	java:S106E"9Replace this use of System.out or System.err by a logger.(‰ù®Í
+M	java:S106I"9Replace this use of System.out or System.err by a logger.(ÿßœ+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(§è»8ð¹”·².
+Z	java:S1067"9Replace this use of System.out or System.err by a logger.(‘ö¨›ùÿÿÿÿ8™¸ž·².
+S	java:S106K"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
