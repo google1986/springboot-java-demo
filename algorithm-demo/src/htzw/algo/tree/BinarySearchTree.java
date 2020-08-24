@@ -3,11 +3,18 @@ package htzw.algo.tree;
 import com.sun.xml.internal.bind.v2.model.core.ID;
 
 /**
+ * 二叉查找树
  * BinarySearchTree
  */
 public class BinarySearchTree {
     private Node tree;
 
+    /**
+     * 在二叉查找树中查找相应的节点
+     *
+     * @param data 数值
+     * @return
+     */
     public Node find(int data) {
         Node p = tree;
         while (p != null) {
@@ -22,6 +29,10 @@ public class BinarySearchTree {
         return null;
     }
 
+    /**
+     * 向二叉查找树中插入节点
+     * @param data 节点数值
+     */
     public void insert(int data) {
         if (tree == null) {
             tree = new Node(data);
@@ -46,9 +57,16 @@ public class BinarySearchTree {
         }
     }
 
+    /**
+     * 根据数值删除相应的节点信息
+     *
+     * @param data 当前数值
+     */
     public void delete(int data) {
-        Node p = tree; // p指向要删除的节点，初始化指向根节点
-        Node pp = null; // pp记录的是p的父节点
+        // p指向要删除的节点，初始化指向根节点
+        Node p = tree;
+        // pp记录的是p的父节点
+        Node pp = null;
         while (p != null && p.data != data) {
             pp = p;
             if (data > p.data) {
@@ -93,6 +111,10 @@ public class BinarySearchTree {
         }
     }
 
+    /**
+     * 在二叉查找树中查找最小的节点
+     * @return
+     */
     public Node findMin() {
         if (tree == null) {
             return null;
@@ -104,6 +126,10 @@ public class BinarySearchTree {
         return p;
     }
 
+    /**
+     * 在二叉查找树中查找最大的节点
+     * @return
+     */
     public Node findMax() {
         if (tree == null) {
             return null;
@@ -126,50 +152,52 @@ public class BinarySearchTree {
     }
 
 
-  /**
-   * 二分查找的递归实现
-   * @param a
-   * @param n
-   * @param val
-   * @return
-   */
-  public int bSearchDemo(int[] a, int n, int val) {
-    return bSearchInternally(a, 0, n - 1, val);
-  }
-
-  private int ddd(int[] a, int low, int high, int value){
-    if (low > high){
-      return -1;
-    }
-    int mid = low + (high-low)>>1;
-    if (a[mid] == value){
-      return mid;
-    }
-    return a[mid] > value ? ddd(a, low,mid-1,value):ddd(a,mid+1,high,value);
-  }
-  private int bSearchInternally(int[] a, int low, int high, int value) {
-    if (low > high) {
-      return -1;
+    /**
+     * 二分查找的递归实现
+     *
+     * @param a
+     * @param n
+     * @param val
+     * @return
+     */
+    public int bSearchDemo(int[] a, int n, int val) {
+        return recursion(a, 0, n - 1, val);
     }
 
-    int mid =  low + ((high - low) >> 1);
-    if (a[mid] == value) {
-      return mid;
-    } else if (a[mid] < value) {
-      return bSearchInternally(a, mid+1, high, value);
-    } else {
-      return bSearchInternally(a, low, mid-1, value);
+    private int recursion(int[] a, int low, int high, int value){
+        if (low > high) {
+            return -1;
+        }
+        int mid  = low + ((high-low)>>1);
+        if (a[mid] == value) {
+            return mid;
+        }
+        return a[mid] > value ? recursion(a, low,mid-1, value) : recursion(a,mid+1, high, value);
     }
-  }
 
-  /**
-   * 二分查找算法
-   *
-   * @param a
-   * @param n
-   * @param value
-   * @return
-   */
+    private int bSearchInternally(int[] a, int low, int high, int value) {
+        if (low > high) {
+            return -1;
+        }
+
+        int mid = low + ((high - low) >> 1);
+        if (a[mid] == value) {
+            return mid;
+        } else if (a[mid] < value) {
+            return bSearchInternally(a, mid + 1, high, value);
+        } else {
+            return bSearchInternally(a, low, mid - 1, value);
+        }
+    }
+
+    /**
+     * 二分查找算法
+     *
+     * @param a
+     * @param n
+     * @param value
+     * @return
+     */
     public int bSearch(int[] a, int n, int value) {
         int low = 0;
         int high = n - 1;
@@ -184,7 +212,6 @@ public class BinarySearchTree {
                 high = mid - 1;
             }
         }
-
         return -1;
     }
 }

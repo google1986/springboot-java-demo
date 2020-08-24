@@ -1,7 +1,5 @@
 package htzw.algo.tree;
 
-import org.junit.Test;
-import sun.reflect.generics.tree.Tree;
 
 import java.util.*;
 
@@ -355,22 +353,23 @@ public class ThreeLinkBinTree<E> {
         return list;
     }
 
-    static HashMap<Integer,Long> map = new HashMap<>();
+    static HashMap<Integer, Long> map = new HashMap<>();
+
     public static void main(String[] args) {
         long start = System.currentTimeMillis();
 
-        for (int counter = 1; counter <= 45; counter++){
-            if (counter %5 == 0){
+        for (int counter = 1; counter <= 45; counter++) {
+            if (counter % 5 == 0) {
                 System.out.println(getFinArr(counter));
-            }else {
-                System.out.print(getFinArr(counter)+"\t");
+            } else {
+                System.out.print(getFinArr(counter) + "\t");
             }
         }
         System.out.println();
-        System.out.println("==========:"+(System.currentTimeMillis()-start));
+        System.out.println("==========:" + (System.currentTimeMillis() - start));
     }
 
-    private static long function(long num){
+    private static long function(long num) {
         return num <= 1 ? 1 : num * function(num - 1);
     }
 
@@ -384,31 +383,33 @@ public class ThreeLinkBinTree<E> {
 
     /**
      * 斐波那契数列全算法
-     *
+     * <p>
      * 递归+HashMap缓存
      * F(0)=0，F(1)=1, F(n)=F(n-1)+F(n-2)（n>=2，n∈N*）
+     *
      * @param n
      * @return
      */
-    private static long getFib(int n){
-        if (n <= 2){
+    private static long getFib(int n) {
+        if (n <= 2) {
             return 1;
         }
-        if (!map.containsKey(n)){
-            map.put(n,getFib(n-2)+getFib(n-1));
+        if (!map.containsKey(n)) {
+            map.put(n, getFib(n - 2) + getFib(n - 1));
         }
         return map.get(n);
     }
 
     /**
      * 递归+数组缓存
-     *     当然，上面递归+HashMap缓存方法里面的map的key和value分别是Integer和Long对象，这时候计算会有一个自动装拆箱的性能问题。如果在一
-     *     个循环体自动装拆箱，会创建大量无用的中间对象，这样会增加GC压力，拉低程序的性能。
-     *     而且HashMap的存取虽然效率都很高，然而还会有自动扩容、取hashCode、hash冲突之后可能最坏OlognO
-     *     的时间复杂度等等的因素。因此想到用数组来做缓存。
+     * 当然，上面递归+HashMap缓存方法里面的map的key和value分别是Integer和Long对象，这时候计算会有一个自动装拆箱的性能问题。如果在一
+     * 个循环体自动装拆箱，会创建大量无用的中间对象，这样会增加GC压力，拉低程序的性能。
+     * 而且HashMap的存取虽然效率都很高，然而还会有自动扩容、取hashCode、hash冲突之后可能最坏OlognO
+     * 的时间复杂度等等的因素。因此想到用数组来做缓存。
      */
 
     static long[] mArray = new long[8000 + 1];
+
     public static long getFinArr(int n) {
         if (n <= 0) {
             throw new RuntimeException("输入参数小于1");
