@@ -1,7 +1,7 @@
 
 r
-java:S1149:"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÑÖÙƒýÿÿÿÿ8ÖÑËº³.
-r
 java:S1149("PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÑÖÙƒýÿÿÿÿ8ÄáÃü¿.
 U	java:S106"9Replace this use of System.out or System.err by a logger.(û²Ó§8÷†©ü¿.
+r
+java:S1149:"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÑÖÙƒýÿÿÿÿ8ÖÑËº³.
 X	java:S125"<This block of commented-out lines of code should be removed.(úêŽù8ÞšËü¿.

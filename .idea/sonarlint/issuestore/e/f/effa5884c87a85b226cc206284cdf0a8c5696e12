@@ -1,13 +1,13 @@
 
-N	java:S106F"9Replace this use of System.out or System.err by a logger.(á •ô
-N	java:S1067"9Replace this use of System.out or System.err by a logger.(¹ŒÃ
 J
 java:S3740:"/Provide the parametrized type for this generic.(¡¼Ïûÿÿÿÿ
-J
-java:S3740:"/Provide the parametrized type for this generic.(¡¼Ïûÿÿÿÿ
-M	java:S106@"9Replace this use of System.out or System.err by a logger.(åªÄf
 M	java:S106?"9Replace this use of System.out or System.err by a logger.(¡“ˆ_
 E
 java:S3740."/Provide the parametrized type for this generic.(Õİÿî
+N	java:S1067"9Replace this use of System.out or System.err by a logger.(¹ŒÃ
+N	java:S106F"9Replace this use of System.out or System.err by a logger.(á •ô
+M	java:S106@"9Replace this use of System.out or System.err by a logger.(åªÄf
 E
 java:S3740."/Provide the parametrized type for this generic.(Õİÿî
+J
+java:S3740:"/Provide the parametrized type for this generic.(¡¼Ïûÿÿÿÿ

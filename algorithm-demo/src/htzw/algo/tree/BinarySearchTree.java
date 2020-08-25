@@ -203,7 +203,7 @@ public class BinarySearchTree {
         int high = n - 1;
 
         while (low <= high) {
-            int mid = (low + high) / 2;
+            int mid = (high-low)>>1;
             if (a[mid] == value) {
                 return mid;
             } else if (a[mid] < value) {

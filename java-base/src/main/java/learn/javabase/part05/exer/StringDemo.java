@@ -3,15 +3,18 @@ package learn.javabase.part05.exer;
 import org.junit.Test;
 
 /**
- * @author shkstart
- * @create 2019 上午 10:07
+ * @author Administrator
  */
 public class StringDemo {
 
-    /*
-    将一个字符串进行反转。将字符串中指定部分进行反转。比如“abcdefg”反转为”abfedcg”
-
-    方式一：转换为char[]
+    /**
+     * 将一个字符串进行反转。将字符串中指定部分进行反转。比如“abcdefg”反转为”abfedcg”
+     *
+     *     方式一：转换为char[]
+     * @param str
+     * @param startIndex
+     * @param endIndex
+     * @return
      */
     public String reverse(String str,int startIndex,int endIndex){
 
@@ -28,7 +31,13 @@ public class StringDemo {
         return null;
     }
 
-    //方式二：使用String的拼接
+    /**
+     * 方式二：使用String的拼接
+     * @param str
+     * @param startIndex
+     * @param endIndex
+     * @return
+     */
     public String reverse1(String str,int startIndex,int endIndex){
         if(str != null){
             //第1部分
@@ -45,7 +54,14 @@ public class StringDemo {
         }
         return null;
     }
-    //方式三：使用StringBuffer/StringBuilder替换String
+
+    /**
+     * 方式三：使用StringBuffer/StringBuilder替换String
+     * @param str
+     * @param startIndex
+     * @param endIndex
+     * @return
+     */
     public String reverse2(String str,int startIndex,int endIndex){
         if(str != null){
             StringBuilder builder = new StringBuilder(str.length());

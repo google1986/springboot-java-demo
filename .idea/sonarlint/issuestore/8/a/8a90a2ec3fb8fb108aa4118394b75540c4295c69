@@ -1,18 +1,18 @@
 
+O	java:S106€"9Replace this use of System.out or System.err by a logger.(Œ‡þ“
+>
+java:S1148-"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+>
+java:S1148F"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
 >
 java:S1148`"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
 S	java:S106@"9Replace this use of System.out or System.err by a logger.(Úáªúÿÿÿÿÿ
-?
-java:S1148„"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
->
-java:S1148-"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-O	java:S106€"9Replace this use of System.out or System.err by a logger.(Œ‡þ“
-O	java:S106‚"9Replace this use of System.out or System.err by a logger.(®ø‡ª
 p
 java:S1192'"UDefine a constant instead of duplicating this literal "\t totalLoopNumber: " 3 times.(Úáªúÿÿÿÿÿ
-S	java:S106'"9Replace this use of System.out or System.err by a logger.(Úáªúÿÿÿÿÿ
->
-java:S1148F"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
 S	java:S106Z"9Replace this use of System.out or System.err by a logger.(Úáªúÿÿÿÿÿ
+O	java:S106‚"9Replace this use of System.out or System.err by a logger.(®ø‡ª
 ]
 java:S2142ƒ"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(Úáªúÿÿÿÿÿ
+?
+java:S1148„"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
