@@ -7,11 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="unit-test" />
         <module name="htzw-java-demo" />
         <module name="java-base" />
-        <module name="unit-test" />
         <module name="spring-annotation" />
         <module name="mysql-druid" />
+        <module name="redis-jedis-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
       <module name="java-learn-demo" target="1.8" />
       <module name="mysql" target="1.8" />
       <module name="mysql-druid" target="1.8" />
+      <module name="redis-jedis-demo" target="1.8" />
       <module name="spring-annotation" target="1.5" />
       <module name="unit-test" target="1.8" />
     </bytecodeTargetLevel>
@@ -31,6 +33,7 @@
       <module name="java-learn-demo" options="-parameters" />
       <module name="mysql" options="-parameters" />
       <module name="mysql-druid" options="-parameters" />
+      <module name="redis-jedis-demo" options="-parameters" />
       <module name="spring-annotation" options="" />
       <module name="unit-test" options="-parameters" />
     </option>
