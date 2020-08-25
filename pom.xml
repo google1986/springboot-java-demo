@@ -25,6 +25,7 @@
         <module>unit-test</module>
         <module>htzw-java-demo</module>
         <module>redis-jedis-demo</module>
+        <module>zookeeper-demo</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -41,6 +42,11 @@
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
             <version>3.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.zookeeper</groupId>
+            <artifactId>zookeeper</artifactId>
+            <version>3.4.10</version>
         </dependency>
 
         <dependency>

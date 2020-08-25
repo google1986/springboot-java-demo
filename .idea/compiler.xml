@@ -11,6 +11,7 @@
         <module name="htzw-java-demo" />
         <module name="java-base" />
         <module name="spring-annotation" />
+        <module name="zookeeper-demo" />
         <module name="mysql-druid" />
         <module name="redis-jedis-demo" />
       </profile>
@@ -24,6 +25,7 @@
       <module name="redis-jedis-demo" target="1.8" />
       <module name="spring-annotation" target="1.5" />
       <module name="unit-test" target="1.8" />
+      <module name="zookeeper-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -36,6 +38,7 @@
       <module name="redis-jedis-demo" options="-parameters" />
       <module name="spring-annotation" options="" />
       <module name="unit-test" options="-parameters" />
+      <module name="zookeeper-demo" options="-parameters" />
     </option>
   </component>
 </project>
