@@ -1,11 +1,11 @@
 
-x
-java:S1488B"]Immediately return this expression instead of assigning it to the temporary variable "split".(âÈôºøÿÿÿÿ
-Q	java:S125="<This block of commented-out lines of code should be removed.(‡–†”
 u
 java:S11491"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(áóè
 S	java:S106N"9Replace this use of System.out or System.err by a logger.(‰Ôšôÿÿÿÿÿ
-<
-java:S1168F"&Return an empty array instead of null.(¥¹ï
+Q	java:S125="<This block of commented-out lines of code should be removed.(‡–†”
 m
 java:S3776/"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(´…Üãıÿÿÿÿ
+x
+java:S1488B"]Immediately return this expression instead of assigning it to the temporary variable "split".(âÈôºøÿÿÿÿ
+<
+java:S1168F"&Return an empty array instead of null.(¥¹ï
