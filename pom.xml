@@ -26,6 +26,7 @@
         <module>htzw-java-demo</module>
         <module>redis-jedis-demo</module>
         <module>zookeeper-demo</module>
+        <module>fastjson-demo</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

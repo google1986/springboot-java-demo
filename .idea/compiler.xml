@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="unit-test" />
+        <module name="fastjson-demo" />
         <module name="htzw-java-demo" />
         <module name="java-base" />
         <module name="spring-annotation" />
@@ -17,6 +18,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="fastjson-demo" target="1.8" />
       <module name="htzw-java-demo" target="1.8" />
       <module name="java-base" target="1.8" />
       <module name="java-learn-demo" target="1.8" />
@@ -30,6 +32,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="fastjson-demo" options="-parameters" />
       <module name="htzw-java-demo" options="-parameters" />
       <module name="java-base" options="-parameters" />
       <module name="java-learn-demo" options="-parameters" />

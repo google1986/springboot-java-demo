@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fastjson-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/htzw-java-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-base" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-base/dbcp_gbk.txt" charset="GBK" />
