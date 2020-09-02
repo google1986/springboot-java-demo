@@ -14,11 +14,14 @@ import java.util.List;
  * Fastjson 可以操作任何 Java 对象，即使是一些预先存在的没有源码的对象。
  *
  * 提供服务器端、安卓客户端两种解析工具，性能表现较好。
- * 提供了 toJSONString() 和 parseObject() 方法来将 Java 对象与 JSON 相互转换。调用toJSONString方 法即可将对象转换成 JSON 字符串，parseObject 方法则反过来将 JSON 字符串转换成对象。
+ * 提供了 toJSONString() 和 parseObject() 方法来将 Java 对象与 JSON 相互转换。调用toJSONString方法即可将对象
+ * 转换成 JSON 字符串；parseObject方法则反过来将 JSON 字符串转换成对象。
+ *
+ *
  * 允许转换预先存在的无法修改的对象（只有class、无源代码）。
  * Java泛型的广泛支持。
  * 允许对象的自定义表示、允许自定义序列化类。
- * 支持任意复杂对象（具有深厚的继承层次和广泛使用的泛型类型）。
+ * 支持任意复杂对象（具有深厚的继承层次和广泛使用的泛型类型）
  *
  *
  * 反序列化能够自动识别如下日期格式：
@@ -59,6 +62,7 @@ public class FastJsonTest {
 
     @Test
     public void whenJavaList_thanConvertToJsonCorrect() {
+
         String jsonOutput= JSON.toJSONString(listOfPersons);
         System.out.println(jsonOutput);
     }

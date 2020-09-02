@@ -20,7 +20,8 @@ import java.util.Map;
  * 由于前端传的日期格式比较奇葩 （eg：09-13/2018），如果是以此方式到后台通过@ResquestBody 注解的接收话会报序列化错误。
  *
  * 解决办法
- * 在要进行反序列化的实体类上添加注解@JSONField(deserializeUsing=DateExtraProcessor.class)，其中DateExtraProcessor就是自定义的反序列化处理类。
+ * 在要进行反序列化的实体类上添加注解@JSONField(deserializeUsing=DateExtraProcessor.class)，其中
+ * DateExtraProcessor就是自定义的反序列化处理类。
  *
  * @author gu.lian.jun
  * @version 1.0

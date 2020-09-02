@@ -103,4 +103,64 @@ public class BitOperationDemo {
         }
         Assert.assertEquals(4, result);
     }
+
+    /**
+     * 8.乘以2运算
+     * 计算n*2
+     * @param n
+     */
+    @Test
+    public void mulTwo(int n){
+        int res = n << 1;
+        System.out.println(res);
+    }
+
+    /**
+     * 9.除以2运算
+     *
+     * 负奇数的运算不可用
+     *
+     * @param n
+     */
+    @Test
+    public void divTwo(int n){
+        int res = n >> 1;//除以2
+        System.out.println(res);
+    }
+
+    /**
+     * 10.乘以2的m次方
+     *计算n*(2^m)
+     * @param n
+     * @param m
+     */
+    @Test
+    public void mulTwoPower(int n, int m){
+        int res = n << m;
+        System.out.println(res);
+    }
+
+    /**
+     * 11.除以2的m次方
+     * 计算n/(2^m)
+     * @param n
+     * @param m
+     */
+    @Test
+    public void divTwoPower(int n, int m){
+        int res = n >> m;
+        System.out.println(res);
+    }
+
+    /**
+     * 12.判断一个数的奇偶性
+     *
+     * @param n
+     * 奇数的话，返回true，偶数的话，返回false
+     */
+    @Test
+    public void  isOldNumber(int n){
+        boolean res = (n&1) == 1;
+        System.out.println(res);
+    }
 }

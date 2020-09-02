@@ -5,6 +5,11 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 /**
+ * 动态代理
+ *
+ *
+ * JDK的动态代理机制只能代理实现了接口的类，而不能实现接口的类就不能实现JDK的动态代理，
+ *
  * @author gu.lian.jun
  * @version 1.0
  * @date 2020/8/13 16:10
