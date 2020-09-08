@@ -95,7 +95,7 @@ public class ArrayDemo {
     }
 
     @Test
-    public  void main(String[] args) {
+    public  void main() {
         ArrayDemo arrayDemo = new ArrayDemo();
         arrayDemo.printAll();
         System.out.println("=================");

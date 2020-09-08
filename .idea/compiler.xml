@@ -8,10 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="unit-test" />
-        <module name="fastjson-demo" />
         <module name="htzw-java-demo" />
         <module name="java-base" />
         <module name="spring-annotation" />
+        <module name="springboot-mongodb-demo" />
+        <module name="fastjson-demo" />
+        <module name="springboot-swagger-demo" />
+        <module name="springboot-mybatis-demo" />
         <module name="zookeeper-demo" />
         <module name="mysql-druid" />
         <module name="redis-jedis-demo" />
@@ -26,6 +29,10 @@
       <module name="mysql-druid" target="1.8" />
       <module name="redis-jedis-demo" target="1.8" />
       <module name="spring-annotation" target="1.5" />
+      <module name="springboot-mongodb-demo" target="1.8" />
+      <module name="springboot-mybatis-demo" target="1.8" />
+      <module name="springboot-swagger-demo" target="1.8" />
+      <module name="springboot-zookeeper-lock-demo" target="1.8" />
       <module name="unit-test" target="1.8" />
       <module name="zookeeper-demo" target="1.8" />
     </bytecodeTargetLevel>
@@ -40,6 +47,10 @@
       <module name="mysql-druid" options="-parameters" />
       <module name="redis-jedis-demo" options="-parameters" />
       <module name="spring-annotation" options="" />
+      <module name="springboot-mongodb-demo" options="-parameters" />
+      <module name="springboot-mybatis-demo" options="-parameters" />
+      <module name="springboot-swagger-demo" options="-parameters" />
+      <module name="springboot-zookeeper-lock-demo" options="-parameters" />
       <module name="unit-test" options="-parameters" />
       <module name="zookeeper-demo" options="-parameters" />
     </option>

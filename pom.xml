@@ -27,6 +27,10 @@
         <module>redis-jedis-demo</module>
         <module>zookeeper-demo</module>
         <module>fastjson-demo</module>
+        <module>springboot-mongodb-demo</module>
+        <module>springboot-swagger-demo</module>
+        <module>springboot-zookeeper-lock-demo</module>
+        <module>springboot-mybatis-demo</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -40,14 +44,13 @@
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
             <version>3.3.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.zookeeper</groupId>
-            <artifactId>zookeeper</artifactId>
-            <version>3.4.10</version>
         </dependency>
 
         <dependency>

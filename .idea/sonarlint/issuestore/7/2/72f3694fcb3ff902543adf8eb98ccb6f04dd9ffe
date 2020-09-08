@@ -1,13 +1,13 @@
 
-U	java:S106&"9Replace this use of System.out or System.err by a logger.(•ÔÄİ8âÅïï¸.
-U	java:S106R"9Replace this use of System.out or System.err by a logger.(­„öÄ8ˆó…¹¾.
-Z	java:S106Y"9Replace this use of System.out or System.err by a logger.(ĞîÜûÿÿÿÿ8•…—ğ¸.
 P
 java:S1128".Remove this unused import 'sun.misc.Launcher'.(¥ñŒÖüÿÿÿÿ8É‹ˆ¹¾.
-Z	java:S106N"9Replace this use of System.out or System.err by a logger.(«›Æƒıÿÿÿÿ8ˆó…¹¾.
-U	java:S106+"9Replace this use of System.out or System.err by a logger.(Î™¬Ç8¿Ôôï¸.
+Z	java:S106Y"9Replace this use of System.out or System.err by a logger.(ĞîÜûÿÿÿÿ8•…—ğ¸.
 W
 java:S11182":Add a private constructor to hide the implicit public one.(•ü²­8“÷ï¸.
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(•ÔÄİ8âÅïï¸.
 W
 java:S1191"5Use classes from the Java API instead of Sun classes.(¥ñŒÖüÿÿÿÿ8É‹ˆ¹¾.
+Z	java:S106N"9Replace this use of System.out or System.err by a logger.(«›Æƒıÿÿÿÿ8ˆó…¹¾.
+U	java:S106R"9Replace this use of System.out or System.err by a logger.(­„öÄ8ˆó…¹¾.
+U	java:S106+"9Replace this use of System.out or System.err by a logger.(Î™¬Ç8¿Ôôï¸.
 Z	java:S106."9Replace this use of System.out or System.err by a logger.(õ¢ôÕúÿÿÿÿ8¿Ôôï¸.

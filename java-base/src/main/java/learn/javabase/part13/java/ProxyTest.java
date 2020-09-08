@@ -88,7 +88,7 @@ class MyInvocationHandler implements InvocationHandler{
 public class ProxyTest {
     public static void main(String[] args) {
         //创建被代理类对象
-        SuperMan superMan = new SuperMan();
+        Human superMan = new SuperMan();
         //proxyInstance:代理类的对象
         Human proxyInstance = (Human) ProxyFactory.getProxyInstance(superMan);
         //当通过代理类对象调用方法时，会自动的调用被代理类中同名的方法

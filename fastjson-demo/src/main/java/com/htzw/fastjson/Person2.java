@@ -9,7 +9,7 @@ import java.util.Date;
  * 并使用 @JSONField 注解，以便实现自定义转换：
  *
  * format 参数用于格式化 date 属性。
- * 默认情况下， FastJson 库可以序列化 Java bean 实体， 但我们可以使用 serialize 指定字段不序列化。
+ * 默认情况下， FastJson 库可以序列化Java bean实体， 但我们可以使用 serialize 指定字段不序列化。
  * 使用 ordinal 参数指定字段的顺序
  * @author gu.lian.jun
  * @version 1.0

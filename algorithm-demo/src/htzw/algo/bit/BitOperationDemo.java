@@ -103,7 +103,6 @@ public class BitOperationDemo {
         }
         Assert.assertEquals(4, result);
     }
-
     /**
      * 8.乘以2运算
      * 计算n*2

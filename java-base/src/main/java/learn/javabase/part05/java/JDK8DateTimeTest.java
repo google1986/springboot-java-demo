@@ -11,8 +11,7 @@ import java.util.Date;
 /**
  * jdk 8中日期时间API的测试
  *
- * @author shkstart
- * @create 2019 下午 2:44
+ * @author Administrator
  */
 public class JDK8DateTimeTest {
 
@@ -39,12 +38,13 @@ public class JDK8DateTimeTest {
         System.out.println(localDate);
         System.out.println(localTime);
         System.out.println(localDateTime);
+        System.out.println("------------------");
 
         //of():设置指定的年、月、日、时、分、秒。没有偏移量
         LocalDateTime localDateTime1 = LocalDateTime.of(2020, 10, 6, 13, 23, 43);
         System.out.println(localDateTime1);
 
-
+        System.out.println("------------------");
         //getXxx()：获取相关的属性
         System.out.println(localDateTime.getDayOfMonth());
         System.out.println(localDateTime.getDayOfWeek());
@@ -52,6 +52,7 @@ public class JDK8DateTimeTest {
         System.out.println(localDateTime.getMonthValue());
         System.out.println(localDateTime.getMinute());
 
+        System.out.println("------------------");
         //体现不可变性
         //withXxx():设置相关的属性
         LocalDate localDate1 = localDate.withDayOfMonth(22);

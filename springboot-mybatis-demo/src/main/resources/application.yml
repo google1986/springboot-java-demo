@@ -1,0 +1,60 @@
+server:
+  port: 9000
+
+spring:
+  # 数据库配置
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.67.140:3306/mybatis_example
+    username: root
+    password: 123456
+    druid:
+      ## 初始化大小，最小，最大
+      initial-size: 5
+      min-idle: 5
+      max-active: 20
+      ## 配置获取连接等待超时的时间,获取连接时最大等待时间，单位毫秒
+      max-wait: 60000
+      # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+      time-between-eviction-runs-millis: 60000
+      # 配置一个连接在池中最小生存的时间，单位是毫秒
+      min-evictable-idle-time-millis: 300000
+      #用来检测连接是否有效的sql，要求是一个查询语句。
+      #如果validationQuery为null，testOnBorrow、testOnReturn、testWhileIdle都不会其作用。
+      validation-query: SELECT 1 FROM DUAL
+      test-while-idle: true
+      #申请连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能。
+      test-on-borrow: false
+      #归还连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能
+      test-on-return: false
+      #是否缓存preparedStatement，也就是PSCache。PSCache对支持游标的数据库性能提升巨大，比如说oracle。
+      #在mysql5.5以下的版本中没有PSCache功能，建议关闭掉。5.5及以上版本有PSCache，建议开启。
+      pool-prepared-statements: true
+      max-pool-prepared-statement-per-connection-size: 20
+      # 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+      #属性类型是字符串，通过别名的方式配置扩展插件，
+      #常用的插件有：监控统计用的filter:stat;日志用的filter:log4j;防御sql注入的filter:wall
+      filters: stat,wall,log4j
+#      # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
+#      connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+
+mybatis:
+  # mapper.xml文件位置
+  mapper-locations: classpath:mappers/*.xml
+  configuration:
+    # 使全局的映射器开启二级缓存
+    cache-enabled: true
+    #开启驼峰命名转换
+    map-underscore-to-camel-case: true
+    #延迟加载的全局开关，当开启时，所有关联对象都会延迟加载。特定关联关系中可以通过设置fetchType属性来覆盖该项的开关状态
+    lazy-loading-enabled: true
+    #当开启时，任何方法的调用都会加载该对象的所有属性。否则，每个属性会按需加载
+    aggressive-lazy-loading: false
+    #配置日志
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    #允许JDBC 生成主键。使用jdbc的getGeneratedKeys获取数据库自增主键值
+    use-generated-keys: true
+  # 所有Entity别名类所在包
+#  type-aliases-package: com.htzw.springboot.mybatis.model.*
+
