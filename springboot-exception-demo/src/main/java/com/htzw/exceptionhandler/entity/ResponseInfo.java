@@ -3,6 +3,8 @@ package com.htzw.exceptionhandler.entity;
 import lombok.Data;
 import lombok.experimental.Accessors;
 
+import java.io.Serializable;
+
 /**
  *自定义返回实体类
  *
@@ -20,11 +22,17 @@ import lombok.experimental.Accessors;
 @Accessors(chain = true)
 public class ResponseInfo {
 
-    /** 错误码 */
+    /**
+     * 错误码
+     */
     private Integer code;
-    /** 错误信息 */
+    /**
+     * 错误信息
+     */
     private String message = "";
-    /** 返回结果 */
+    /**
+     * 返回结果
+     */
     private Object data = "";
 
 }

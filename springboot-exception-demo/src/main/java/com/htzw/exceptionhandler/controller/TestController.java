@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * 测试 Controller
  *
- * @author mydlq
  */
 @RestController
 public class TestController {
@@ -49,5 +48,4 @@ public class TestController {
     public String createGlobleException() {
         throw new NullPointerException("NullPointerException 空指针异常信息");
     }
-
 }
