@@ -16,8 +16,9 @@
         <module name="springboot-swagger-demo" />
         <module name="springboot-mybatis-demo" />
         <module name="zookeeper-demo" />
-        <module name="mysql-druid" />
+        <module name="springboot-exception-demo" />
         <module name="redis-jedis-demo" />
+        <module name="mysql-druid" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -29,6 +30,7 @@
       <module name="mysql-druid" target="1.8" />
       <module name="redis-jedis-demo" target="1.8" />
       <module name="spring-annotation" target="1.5" />
+      <module name="springboot-exception-demo" target="1.8" />
       <module name="springboot-mongodb-demo" target="1.8" />
       <module name="springboot-mybatis-demo" target="1.8" />
       <module name="springboot-swagger-demo" target="1.8" />
@@ -47,6 +49,7 @@
       <module name="mysql-druid" options="-parameters" />
       <module name="redis-jedis-demo" options="-parameters" />
       <module name="spring-annotation" options="" />
+      <module name="springboot-exception-demo" options="-parameters" />
       <module name="springboot-mongodb-demo" options="-parameters" />
       <module name="springboot-mybatis-demo" options="-parameters" />
       <module name="springboot-swagger-demo" options="-parameters" />

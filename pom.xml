@@ -29,8 +29,9 @@
         <module>fastjson-demo</module>
         <module>springboot-mongodb-demo</module>
         <module>springboot-swagger-demo</module>
-        <module>springboot-zookeeper-lock-demo</module>
+<!--        <module>springboot-zookeeper-lock-demo</module>-->
         <module>springboot-mybatis-demo</module>
+        <module>springboot-exception-demo</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
