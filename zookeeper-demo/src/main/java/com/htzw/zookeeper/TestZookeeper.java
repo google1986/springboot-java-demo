@@ -16,7 +16,7 @@ public class TestZookeeper {
 
     //注意：在connectString中，不能有空格，否则会报java.net.UnknownHostException异常
     private static final String CONNECT_STRING = "CentOS001:2181,CentOS004:2181,CentOS005:2181";
-    private int SESSION_TIMEOUT = 2000;
+    private static final int SESSION_TIMEOUT = 2000;
     private ZooKeeper zkClient;
 
     @Before

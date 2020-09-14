@@ -42,10 +42,10 @@ public class Person {
     @JSONField(name = "AGE")
     private int age;
 
-    @JSONField(name = "FULL NAME")
+    @JSONField(name = "FULL NAME", ordinal = 1)
     private String fullName;
 
-    @JSONField(name = "DATE OF BIRTH")
+    @JSONField(name = "DATE OF BIRTH", ordinal = 2)
     private Date dateOfBirth;
 
     public Person(int age, String fullName, Date dateOfBirth) {
