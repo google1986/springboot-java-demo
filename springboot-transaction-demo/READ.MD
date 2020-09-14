@@ -1,0 +1,1 @@
+Spring 事务管理介绍，详见http://www.mydlq.club/article/91/

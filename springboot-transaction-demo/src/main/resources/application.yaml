@@ -1,0 +1,11 @@
+server:
+  port: 9000
+
+spring:
+  # 数据库配置
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.67.140:3306/test_trans
+    username: root
+    password: 123456

@@ -32,6 +32,8 @@
 <!--        <module>springboot-zookeeper-lock-demo</module>-->
         <module>springboot-mybatis-demo</module>
         <module>springboot-exception-demo</module>
+        <module>springboot-transaction-demo</module>
+        <module>jdk8_lambda_demo</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
