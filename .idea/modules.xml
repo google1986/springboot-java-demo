@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/redis-jedis-demo/redis-jedis-demo.iml" filepath="$PROJECT_DIR$/redis-jedis-demo/redis-jedis-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-annotation/spring-annotation.iml" filepath="$PROJECT_DIR$/spring-annotation/spring-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-exception-demo/springboot-exception-demo.iml" filepath="$PROJECT_DIR$/springboot-exception-demo/springboot-exception-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-filter-example/springboot-filter-example.iml" filepath="$PROJECT_DIR$/springboot-filter-example/springboot-filter-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mongodb-demo/springboot-mongodb-demo.iml" filepath="$PROJECT_DIR$/springboot-mongodb-demo/springboot-mongodb-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis-demo/springboot-mybatis-demo.iml" filepath="$PROJECT_DIR$/springboot-mybatis-demo/springboot-mybatis-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-swagger-demo/springboot-swagger-demo.iml" filepath="$PROJECT_DIR$/springboot-swagger-demo/springboot-swagger-demo.iml" />

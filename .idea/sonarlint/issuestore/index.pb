@@ -602,3 +602,5 @@ H
 jdk8_lambda_demo/pom.xml,2\b\2b79d914b784122e73c50de10b7d2e034dabe8c7
 t
 Djdk8_lambda_demo/src/main/java/com/htzw/lambda/OptionalDemoTest.java,3\b\3b0bbc76479725dbcd6f7261485e7d227e73382d
+r
+Bjdk8_lambda_demo/src/main/java/com/htzw/stream/StreamDemoTest.java,9\e\9ee0fc0648888494ee177e8f35c95a518c300ac0

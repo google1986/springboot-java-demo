@@ -7,7 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="htzw-java-demo" />
+        <module name="redis-jedis-demo" />
         <module name="zookeeper-demo" />
         <module name="fastjson-demo" />
         <module name="unit-test" />
@@ -19,8 +19,9 @@
         <module name="mysql-druid" />
         <module name="springboot-mybatis-demo" />
         <module name="java-base" />
-        <module name="redis-jedis-demo" />
+        <module name="htzw-java-demo" />
         <module name="springboot-exception-demo" />
+        <module name="springboot-filter-example" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -34,6 +35,7 @@
       <module name="redis-jedis-demo" target="1.8" />
       <module name="spring-annotation" target="1.5" />
       <module name="springboot-exception-demo" target="1.8" />
+      <module name="springboot-filter-example" target="1.8" />
       <module name="springboot-mongodb-demo" target="1.8" />
       <module name="springboot-mybatis-demo" target="1.8" />
       <module name="springboot-swagger-demo" target="1.8" />
@@ -55,6 +57,7 @@
       <module name="redis-jedis-demo" options="-parameters" />
       <module name="spring-annotation" options="" />
       <module name="springboot-exception-demo" options="-parameters" />
+      <module name="springboot-filter-example" options="-parameters" />
       <module name="springboot-mongodb-demo" options="-parameters" />
       <module name="springboot-mybatis-demo" options="-parameters" />
       <module name="springboot-swagger-demo" options="-parameters" />
