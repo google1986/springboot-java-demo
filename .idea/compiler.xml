@@ -18,6 +18,7 @@
         <module name="jdk8_lambda_demo" />
         <module name="mysql-druid" />
         <module name="springboot-mybatis-demo" />
+        <module name="springboot-ZooKeeper-Lock-demo" />
         <module name="java-base" />
         <module name="htzw-java-demo" />
         <module name="springboot-exception-demo" />
@@ -41,6 +42,7 @@
       <module name="springboot-swagger-demo" target="1.8" />
       <module name="springboot-transaction-demo" target="1.8" />
       <module name="springboot-zookeeper-lock-demo" target="1.8" />
+      <module name="springboot-ZooKeeper-Lock-demo" target="1.8" />
       <module name="unit-test" target="1.8" />
       <module name="zookeeper-demo" target="1.8" />
     </bytecodeTargetLevel>
@@ -56,6 +58,7 @@
       <module name="mysql-druid" options="-parameters" />
       <module name="redis-jedis-demo" options="-parameters" />
       <module name="spring-annotation" options="" />
+      <module name="springboot-ZooKeeper-Lock-demo" options="-parameters" />
       <module name="springboot-exception-demo" options="-parameters" />
       <module name="springboot-filter-example" options="-parameters" />
       <module name="springboot-mongodb-demo" options="-parameters" />

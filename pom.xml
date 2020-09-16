@@ -29,12 +29,12 @@
         <module>fastjson-demo</module>
         <module>springboot-mongodb-demo</module>
         <module>springboot-swagger-demo</module>
-<!--        <module>springboot-zookeeper-lock-demo</module>-->
         <module>springboot-mybatis-demo</module>
         <module>springboot-exception-demo</module>
         <module>springboot-transaction-demo</module>
         <module>jdk8_lambda_demo</module>
         <module>springboot-filter-example</module>
+        <module>springboot-ZooKeeper-Lock-demo</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
