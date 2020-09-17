@@ -40,7 +40,7 @@ spring:
 #      connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
 
 mybatis:
-  # mapper.xml文件位置
+  # com.htzw.plus.mapper.xml文件位置
   mapper-locations: classpath:mappers/*.xml
   configuration:
     # 使全局的映射器开启二级缓存
@@ -56,5 +56,5 @@ mybatis:
     #允许JDBC 生成主键。使用jdbc的getGeneratedKeys获取数据库自增主键值
     use-generated-keys: true
   # 所有Entity别名类所在包
-#  type-aliases-package: com.htzw.springboot.mybatis.model.*
+#  type-aliases-package: com.htzw.springboot.mybatis.com.htzw.plus.model.*
 

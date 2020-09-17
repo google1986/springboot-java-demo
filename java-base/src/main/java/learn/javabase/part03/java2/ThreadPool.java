@@ -52,7 +52,7 @@ public class ThreadPool {
         ExecutorService service = Executors.newFixedThreadPool(10);
         ThreadPoolExecutor service1 = (ThreadPoolExecutor) service;
         //设置线程池的属性
-//        System.out.println(service.getClass());
+//        System.out.println(com.htzw.plus.service.getClass());
 //        service1.setCorePoolSize(15);
 //        service1.setKeepAliveTime();
 
@@ -61,7 +61,7 @@ public class ThreadPool {
         service.execute(new NumberThread());//适合适用于Runnable
         service.execute(new NumberThread1());//适合适用于Runnable
 
-//        service.submit(Callable callable);//适合使用于Callable
+//        com.htzw.plus.service.submit(Callable callable);//适合使用于Callable
         //3.关闭连接池
         service.shutdown();
     }

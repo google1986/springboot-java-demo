@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!DOCTYPE com.htzw.plus.mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-com.htzw.plus.mapper.dtd">
 
 <!--User 表操作，单表操作示例-->
-<mapper namespace="com.htzw.springboot.mybatis.mappers.single.UserBatchMapper">
+<com.htzw.plus.mapper namespace="com.htzw.springboot.mybatis.mappers.single.UserBatchMapper">
 
     <!--结果映射参数设置-->
-    <resultMap id="UserResultMap" type="com.htzw.springboot.mybatis.model.single.User">
+    <resultMap id="UserResultMap" type="com.htzw.springboot.mybatis.com.htzw.plus.model.single.User">
         <id column="id" jdbcType="INTEGER" property="id"/>
         <result column="group_id" jdbcType="INTEGER" property="groupId"/>
         <result column="password" jdbcType="VARCHAR" property="password"/>
@@ -62,4 +62,4 @@
         </trim>
     </delete>
 
-</mapper>
+</com.htzw.plus.mapper>

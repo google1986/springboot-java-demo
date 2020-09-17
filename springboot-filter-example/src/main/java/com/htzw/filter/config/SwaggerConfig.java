@@ -26,7 +26,7 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .enable(swaggerEnable)
                 .apiInfo(apiInfo())
-                //.groupName("swagger-example-service") // 项目组名
+                //.groupName("swagger-example-com.htzw.plus.service") // 项目组名
                 // 选择那些路径和api会生成document
                 .select()
                 // 对所有api进行监控
@@ -43,7 +43,7 @@ public class SwaggerConfig {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 // 文档标题
-                .title("swagger-demo-service")
+                .title("swagger-demo-com.htzw.plus.service")
                 // 文档描述
                 .description("This is a swagger project.")
                 // 文档版本

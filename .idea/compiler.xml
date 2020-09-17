@@ -7,21 +7,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="redis-jedis-demo" />
+        <module name="springboot-transaction-demo" />
         <module name="zookeeper-demo" />
         <module name="fastjson-demo" />
+        <module name="springboot-mybatis-demo" />
         <module name="unit-test" />
-        <module name="springboot-transaction-demo" />
         <module name="springboot-swagger-demo" />
         <module name="springboot-mongodb-demo" />
         <module name="spring-annotation" />
         <module name="jdk8_lambda_demo" />
         <module name="mysql-druid" />
-        <module name="springboot-mybatis-demo" />
+        <module name="springboot-exception-demo" />
         <module name="springboot-ZooKeeper-Lock-demo" />
         <module name="java-base" />
+        <module name="redis-jedis-demo" />
         <module name="htzw-java-demo" />
-        <module name="springboot-exception-demo" />
         <module name="springboot-filter-example" />
       </profile>
     </annotationProcessing>
@@ -39,6 +39,7 @@
       <module name="springboot-filter-example" target="1.8" />
       <module name="springboot-mongodb-demo" target="1.8" />
       <module name="springboot-mybatis-demo" target="1.8" />
+      <module name="springboot-mybatisplus-demo" target="1.8" />
       <module name="springboot-swagger-demo" target="1.8" />
       <module name="springboot-transaction-demo" target="1.8" />
       <module name="springboot-zookeeper-lock-demo" target="1.8" />
@@ -63,6 +64,7 @@
       <module name="springboot-filter-example" options="-parameters" />
       <module name="springboot-mongodb-demo" options="-parameters" />
       <module name="springboot-mybatis-demo" options="-parameters" />
+      <module name="springboot-mybatisplus-demo" options="-parameters" />
       <module name="springboot-swagger-demo" options="-parameters" />
       <module name="springboot-transaction-demo" options="-parameters" />
       <module name="springboot-zookeeper-lock-demo" options="-parameters" />

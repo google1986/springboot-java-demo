@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!DOCTYPE com.htzw.plus.mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-com.htzw.plus.mapper.dtd">
 
-<mapper namespace="com.htzw.springboot.mybatis.mappers.many.UserInfoMapper">
+<com.htzw.plus.mapper namespace="com.htzw.springboot.mybatis.mappers.many.UserInfoMapper">
 
     <!--结果映射参数设置-->
-    <resultMap id="UserInfoResultMap" type="com.htzw.springboot.mybatis.model.many.UserInfo">
+    <resultMap id="UserInfoResultMap" type="com.htzw.springboot.mybatis.com.htzw.plus.model.many.UserInfo">
         <id column="id" jdbcType="INTEGER" property="id"/>
         <result column="group_id" jdbcType="INTEGER" property="groupId"/>
         <result column="username" jdbcType="VARCHAR" property="username"/>
         <result column="password" jdbcType="VARCHAR" property="password"/>
-        <association property="baseInfo" javaType="com.htzw.springboot.mybatis.model.single.BaseInfo">
+        <association property="baseInfo" javaType="com.htzw.springboot.mybatis.com.htzw.plus.model.single.BaseInfo">
             <id column="baseId" jdbcType="INTEGER" property="id"/>
             <result column="userId" jdbcType="INTEGER" property="userId"/>
             <result column="name" jdbcType="VARCHAR" property="name"/>
@@ -37,4 +37,4 @@
               A.id = #{userId, jdbcType=INTEGER}
     </select>
 
-</mapper>
+</com.htzw.plus.mapper>

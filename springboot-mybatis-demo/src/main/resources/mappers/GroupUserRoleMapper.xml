@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!DOCTYPE com.htzw.plus.mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-com.htzw.plus.mapper.dtd">
 
-<mapper namespace="com.htzw.springboot.mybatis.mappers.many.GroupUserRoleMapper">
+<com.htzw.plus.mapper namespace="com.htzw.springboot.mybatis.mappers.many.GroupUserRoleMapper">
 
     <!--结果映射参数设置-->
-    <resultMap id="GroupUserRoleResultMap" type="com.htzw.springboot.mybatis.model.many.GroupUserRole">
+    <resultMap id="GroupUserRoleResultMap" type="com.htzw.springboot.mybatis.com.htzw.plus.model.many.GroupUserRole">
         <id column="id" jdbcType="INTEGER" property="id"/>
         <result column="name" jdbcType="VARCHAR" property="name"/>
-        <collection property="users" ofType="com.htzw.springboot.mybatis.model.many.UserRole">
+        <collection property="users" ofType="com.htzw.springboot.mybatis.com.htzw.plus.model.many.UserRole">
             <id column="userId" jdbcType="INTEGER" property="id"/>
             <result column="group_id" jdbcType="INTEGER" property="groupId"/>
             <result column="username" jdbcType="VARCHAR" property="username"/>
             <result column="password" jdbcType="VARCHAR" property="password"/>
-            <collection property="roles" ofType="com.htzw.springboot.mybatis.model.single.Role">
+            <collection property="roles" ofType="com.htzw.springboot.mybatis.com.htzw.plus.model.single.Role">
                 <id column="roleId" jdbcType="INTEGER" property="id"/>
                 <result column="roleName" jdbcType="VARCHAR" property="name"/>
             </collection>
@@ -34,4 +34,4 @@
               A.id = #{groupId, jdbcType=INTEGER}
     </select>
 
-</mapper>
+</com.htzw.plus.mapper>

@@ -8,15 +8,17 @@
         <option value="$PROJECT_DIR$/mysql-druid/pom.xml" />
         <option value="$PROJECT_DIR$/unit-test/pom.xml" />
         <option value="$PROJECT_DIR$/spring-annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis-demo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/springboot-mybatisplus-demo/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-zookeeper-lock-demo/pom.xml" />
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

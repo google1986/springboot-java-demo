@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!DOCTYPE com.htzw.plus.mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-com.htzw.plus.mapper.dtd">
 
-<mapper namespace="com.htzw.springboot.mybatis.mappers.many.GroupUserMapper">
+<com.htzw.plus.mapper namespace="com.htzw.springboot.mybatis.mappers.many.GroupUserMapper">
 
     <!--结果映射参数设置-->
-    <resultMap id="GroupUserResultMap" type="com.htzw.springboot.mybatis.model.many.GroupUser">
+    <resultMap id="GroupUserResultMap" type="com.htzw.springboot.mybatis.com.htzw.plus.model.many.GroupUser">
         <id column="id" jdbcType="INTEGER" property="id"/>
         <result column="name" jdbcType="VARCHAR" property="name"/>
-        <collection property="users" ofType="com.htzw.springboot.mybatis.model.single.User">
+        <collection property="users" ofType="com.htzw.springboot.mybatis.com.htzw.plus.model.single.User">
             <id column="userId" jdbcType="INTEGER" property="id"/>
             <result column="group_id" jdbcType="INTEGER" property="groupId"/>
             <result column="username" jdbcType="VARCHAR" property="username"/>
@@ -25,4 +25,4 @@
               A.id = #{groupId, jdbcType=INTEGER}
     </select>
 
-</mapper>
+</com.htzw.plus.mapper>

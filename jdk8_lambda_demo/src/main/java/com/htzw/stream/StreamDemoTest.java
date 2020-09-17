@@ -254,7 +254,7 @@ public class StreamDemoTest {
      * 对流中的元素进行处理，然后返回，返回值的类型可以和原来的元素的类型不同。
      *
      * - 接口定义：
-     *   - Stream<R> map(Function<? super T, ? extends R> mapper);
+     *   - Stream<R> map(Function<? super T, ? extends R> com.htzw.plus.mapper);
      * - 方法描述：
      *   - 在 `map` 接口定义中是接收 `Function` 类型参数，了解 `Lambda` 表达式就可以知道 `Function<T,R>` 是接收一个 `T`
      *   返回处理后的值 `R`。所以，这里 `map` 方法就是对流中的元素进行处理，然后返回一个新的元素。等到将全部元素处理完成后将
@@ -335,7 +335,7 @@ public class StreamDemoTest {
      * 主要用于对流中元素进行一对一转换为 int 整数，然后可以进行一些求和、平均值、最大最小值等处理。
      *
      * - 接口定义：
-     *   - IntStream mapToInt(ToIntFunction<? super T> mapper);
+     *   - IntStream mapToInt(ToIntFunction<? super T> com.htzw.plus.mapper);
      * - 方法描述：
      *   - 在 `mapToInt` 接口定义中可知，它接收 `ToIntFunctio` 类型参数，在 `Lambda` 中 `ToIntFunction<T>` 函数的作用为
      *   接受一个输入参数，返回一个 `int` 类型结果，根据这点很容易了解到 `mapToInt` 方法就是将 `Stream` 中原有的元素类型转换
@@ -357,7 +357,7 @@ public class StreamDemoTest {
      * 主要用于对流中元素进行一对一转换为 double 双精度浮点型，然后可以进行一些求和、平均值、最大最小值等处理。
      *
      * - 接口定义：
-     *   - IntStream mapToInt(ToDoubleFunction<? super T> mapper);
+     *   - IntStream mapToInt(ToDoubleFunction<? super T> com.htzw.plus.mapper);
      * - 方法描述：
      *   - 在 `mapToDouble` 接口定义中可知，它接收 `ToDoubleFunction` 类型参数，
      *   在 `Lambda` 中 `ToDoubleFunction<T>` 函数的作用为接受一个输入参数，返回一个 `int` 类型结果，
