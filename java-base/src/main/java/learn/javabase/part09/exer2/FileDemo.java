@@ -3,10 +3,10 @@ package learn.javabase.part09.exer2;
 import org.junit.Test;
 
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 
 /**
+ * @version 1.0
  */
 public class FileDemo {
 
